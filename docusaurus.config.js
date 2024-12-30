@@ -78,7 +78,7 @@ const config = {
       navbar: {
         title: 'AirComponents',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'AirComponents',
           src: 'img/air-components-logo.svg',
         },
         items: [
@@ -106,10 +106,6 @@ const config = {
                 label: '快速开始',
                 to: '/docs/intro',
               },
-              {
-                label: 'API 参考',
-                to: '/docs/api',
-              },
             ],
           },
           {
@@ -118,10 +114,6 @@ const config = {
               {
                 label: 'GitHub 讨论',
                 href: 'https://github.com/SisyphusZheng/aircomponents/discussions',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/aircomponents',
               },
             ],
           },
