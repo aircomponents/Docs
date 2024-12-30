@@ -1,0 +1,22 @@
+{
+  "id": "basic-components/button",
+  "title": "Air-Button",
+  "description": "Properties",
+  "source": "@site/docs/basic-components/button.md",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/button",
+  "permalink": "/docs/basic-components/button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic-components/button.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Air-Button"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "基础组件",
+    "permalink": "/docs/category/基础组件"
+  }
+}
