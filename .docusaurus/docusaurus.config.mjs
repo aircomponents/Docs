@@ -89,10 +89,6 @@ export default {
               "label": "快速开始",
               "to": "/docs/intro"
             },
-            {
-              "label": "API 参考",
-              "to": "/docs/api"
-            }
           ]
         },
         {
@@ -102,10 +98,6 @@ export default {
               "label": "GitHub 讨论",
               "href": "https://github.com/SisyphusZheng/aircomponents/discussions"
             },
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/aircomponents"
-            }
           ]
         },
         {
