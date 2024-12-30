@@ -78,7 +78,7 @@ const config = {
       navbar: {
         title: 'AirComponents',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'AirComponents',
           src: 'img/air-components-logo.svg',
         },
         items: [
