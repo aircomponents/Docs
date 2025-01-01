@@ -1,0 +1,142 @@
+---
+title: Air-Button
+---
+<!-- truncate -->
+
+import * as aircomponents from 'https://unpkg.com/air-components@0.0.9/dist/aircomponents/aircomponents.esm.js';
+
+### Properties
+
+| Property     | Attribute     | Description                            | Type                                                              | Default    |
+| ------------ | ------------- | -------------------------------------- | ----------------------------------------------------------------- | ---------- |
+| `autoWidth`  | `auto-width`  | 启用自动宽度调整                       | `boolean`                                                         | `false`    |
+| `circle`     | `circle`      | 显示圆形按钮                           | `boolean`                                                         | `false`    |
+| `content`    | `content`     | 按钮文本内容                           | `string`                                                          | `''`       |
+| `disabled`   | `disabled`    | 禁用按钮                               | `boolean`                                                         | `false`    |
+| `ghost`      | `ghost`       | 以幽灵风格显示按钮                     | `boolean`                                                         | `false`    |
+| `icon`       | `icon`        | 在按钮中显示图标                       | `string`                                                          | `''`       |
+| `loading`    | `loading`     | 显示加载状态图标                       | `boolean`                                                         | `false`    |
+| `plain`      | `plain`       | 应用朴素风格                           | `boolean`                                                         | `false`    |
+| `round`      | `round`       | 显示圆角按钮                           | `boolean`                                                         | `false`    |
+| `size`       | `size`        | 按钮大小                               | `"big" \| "medium" \| "small"`                                    | `'medium'` |
+| `suffixIcon` | `suffix-icon` | 显示按钮后缀图标                       | `string`                                                          | `''`       |
+| `type`       | `type`        | 按钮类型                               | `"" \| "danger" \| "info" \| "primary" \| "success" \| "warning"` | `''`       |
+
+### Dependencies
+
+### Used by
+
+#### air-card
+
+### Example Usage
+
+### 1. 基本按钮（默认状态）
+
+展示一个最基本的按钮，依据 `size`, `variant` 和 `color` 来调整外观。
+
+<air-button size="medium" variant="solid" color="primary">Primary Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary">
+  Primary Button
+</air-button>
+```
+
+### 2. 不同颜色的按钮
+
+展示不同颜色的按钮，涵盖 `primary`, `success`, `info`, `warning`, `danger`, `ghost`。
+
+<air-button size="medium" variant="solid" color="success">Success Button</air-button>
+<air-button size="medium" variant="solid" color="info">Info Button</air-button>
+<air-button size="medium" variant="solid" color="warning">Warning Button</air-button>
+<air-button size="medium" variant="solid" color="danger">Danger Button</air-button>
+<air-button size="medium" variant="solid" color="ghost">Ghost Button</air-button>
+<air-button size="medium" variant="solid" color="primary">primary Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="success">Success Button</air-button>
+<air-button size="medium" variant="solid" color="info">Info Button</air-button>
+<air-button size="medium" variant="solid" color="warning">Warning Button</air-button>
+<air-button size="medium" variant="solid" color="danger">Danger Button</air-button>
+<air-button size="medium" variant="solid" color="ghost">Ghost Button</air-button>
+<air-button size="medium" variant="solid" color="primary">primary Button</air-button>
+```
+
+### 3. 不同大小的按钮展示 
+`size` 属性的不同效果。你可以使用 `small`, `medium`, `large` 来展示不同的按钮大小。
+
+<air-button size="small" variant="solid" color="primary">Small Button</air-button>
+<air-button size="medium" variant="solid" color="primary">Medium Button</air-button>
+<air-button size="large" variant="solid" color="primary">Large Button</air-button>
+```html
+<air-button size="small" variant="solid" color="primary">Small Button</air-button>
+<air-button size="medium" variant="solid" color="primary">Medium Button</air-button>
+<air-button size="large" variant="solid" color="primary">Large Button</air-button>
+```
+
+### 4. 带图标的按钮
+
+展示带有图标的按钮，使用 `icon` 属性为按钮添加前后缀图标。
+
+<air-button size="medium" variant="solid" color="primary" icon="🔍">Button</air-button>
+<air-button size="medium" variant="solid" color="primary" icon="📥">Download Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary" icon="🔍">Button</air-button>
+<air-button size="medium" variant="solid" color="primary" icon="📥">Download Button</air-button>
+```
+
+### 5. 加载状态按钮
+
+展示按钮处于加载状态时的表现，使用 `loading` 属性。
+
+<air-button size="medium" variant="solid" color="primary" loading>Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary" loading>Button</air-button>
+```
+
+### 6. 禁用状态按钮
+
+展示禁用状态下的按钮，使用 `disabled` 属性。
+
+<air-button size="medium" variant="solid" color="primary" disabled>Disabled Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary" disabled>Disabled Button</air-button>
+```
+
+### 7. 选中状态按钮
+
+展示选中状态下的按钮，使用 `selected` 属性。
+
+<air-button size="medium" variant="solid" color="primary" selected>Button</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary" selected>Button</air-button>
+```
+
+### 8. 带有插槽内容的按钮
+
+展示有插槽内容（例如文本）的按钮。
+
+<air-button size="medium" variant="solid" color="primary">
+  <span>Slot Button</span>
+</air-button>
+```html
+<air-button size="medium" variant="solid" color="primary">
+  <span>Slot Button</span>
+</air-button>
+```
+
+### 9. 组合示例：不同属性的按钮
+
+展示多种属性组合，突出不同按钮的状态和外观。
+
+<air-button size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</air-button>
+<air-button size="small" variant="text" color="warning" selected>Mix Button</air-button>
+<air-button size="medium" variant="solid" color="danger" disabled>Mix Button</air-button>
+<air-button size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</air-button>
+```html
+<air-button size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</air-button>
+<air-button size="small" variant="text" color="warning" selected>Mix Button</air-button>
+<air-button size="medium" variant="solid" color="danger" disabled>Mix Button</air-button>
+<air-button size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</air-button>
+```
+
+---
+

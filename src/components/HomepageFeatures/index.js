@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import airComponentsBoard from '@site/static/img/air-components-board.png';
 
 const FeatureList = [
   {
@@ -21,7 +22,7 @@ const FeatureList = [
 
 function Feature({ Svg, title, description }) {
   return (
-    <air-card class="feature-card">
+    <card className="feature-card">
       <div slot="header">
         <div className="text--center">
           <Svg className={styles.featureSvg} role="img" />
@@ -33,22 +34,38 @@ function Feature({ Svg, title, description }) {
           <p>{description}</p>
         </div>
       </div>
-    </air-card>
+    </card>
   );
 }
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
+      {/* 图片部分 */}
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <div className="col col--4" key={idx}>
-              <Feature {...props} />
-            </div>
-          ))}
+          <div className="col col--12">
+            <img
+              src={airComponentsBoard}
+              alt="Air Components Board"
+              className={clsx(styles.featureImage, 'center-block')}
+            />
+          </div>
         </div>
       </div>
     </section>
   );
 }
+
+{/* 特性部分 */}
+{/* 
+<div className="container">
+  <div className="row">
+    {FeatureList.map((props, idx) => (
+      <div className="col col--4" key={idx}>
+        <Feature {...props} />
+      </div>
+    ))}
+  </div>
+</div>
+*/}

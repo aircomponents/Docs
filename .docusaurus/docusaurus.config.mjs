@@ -56,7 +56,7 @@ export default {
     "navbar": {
       "title": "AirComponents",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "AirComponents",
         "src": "img/air-components-logo.svg"
       },
       "items": [
@@ -88,7 +88,7 @@ export default {
             {
               "label": "快速开始",
               "to": "/docs/intro"
-            },
+            }
           ]
         },
         {
@@ -97,7 +97,7 @@ export default {
             {
               "label": "GitHub 讨论",
               "href": "https://github.com/SisyphusZheng/aircomponents/discussions"
-            },
+            }
           ]
         },
         {
@@ -114,7 +114,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2024 Aircomponents."
+      "copyright": "Copyright © 2025 Aircomponents."
     },
     "prism": {
       "theme": {
