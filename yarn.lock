@@ -2799,6 +2799,13 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
+air-components@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/air-components/-/air-components-0.0.9.tgz#bf25f69b00f0c5b5a370891124d2f7a380df6e25"
+  integrity sha512-+vcsjdxVHVQHD5oggNCsV3k98rYYAt1ARw9wE4bJ1bJofVf9WmLRLoUM3lPqlh3FjR9Bc0EXboo0o1TIDkU2bg==
+  dependencies:
+    postcss "^8.1.0"
+
 ajv-formats@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ajv-formats/-/ajv-formats-2.1.1.tgz#6e669400659eb74973bbf2e33327180a0996b520"

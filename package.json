@@ -17,6 +17,7 @@
     "@aircomponents/components": "^0.0.8",
     "@docusaurus/core": "^3.6.3",
     "@docusaurus/preset-classic": "^3.6.3",
+    "air-components": "^0.0.9",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "raw-loader": "^4.0.2",

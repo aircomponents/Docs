@@ -6,7 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import { AirButton } from 'https://unpkg.com/air-components@0.0.9/dist/aircomponents/aircomponents.esm.js';
+import { AirButton } from 'air-components/dist/aircomponents/aircomponents.esm.js';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
