@@ -69,19 +69,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'bcc'),
+    component: ComponentCreator('/docs', '7cb'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5aa'),
+        component: ComponentCreator('/docs', 'dfa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '887'),
+            component: ComponentCreator('/docs', '173'),
             routes: [
               {
                 path: '/docs/basic-components/button',
-                component: ComponentCreator('/docs/basic-components/button', '2f4'),
+                component: ComponentCreator('/docs/basic-components/button', 'cf7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
