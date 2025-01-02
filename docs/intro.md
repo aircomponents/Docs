@@ -42,7 +42,7 @@ import 'air-components';
 HTML 示例：
 
 ```html
-<air-button label="点击我"></air-button>
+
 ```
 
 ### 启动开发服务器

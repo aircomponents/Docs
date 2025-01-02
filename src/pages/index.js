@@ -6,7 +6,12 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import { AirButton } from 'air-components/dist/aircomponents/aircomponents.esm.js';
+import NoSSR from 'react-no-ssr';
+
+if (typeof window !== 'undefined') {
+  // 这里的代码仅在客户端运行
+  const { AirButton } = require('air-components/dist/aircomponents/aircomponents.esm.js');
+}
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,7 +23,8 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <air-button size="medium" variant="solid" color="ghost" icon="📥 ">
+        <NoSSR>
+        <air-button size="medium" variant="solid" color="ghost" icon="📥 ">
             <Link
               to="/docs/intro"
               style={{
@@ -31,7 +37,8 @@ function HomepageHeader() {
             >
               现在开始
             </Link>
-          </air-button>
+            </air-button>
+          </NoSSR>
         </div>
       </div>
     </header>

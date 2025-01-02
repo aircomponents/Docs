@@ -8,7 +8,7 @@ export default {
   "tagline": "轻量化的 Web Components 组件库",
   "favicon": "img/air-components-logo.svg",
   "url": "https://SisyphusZheng.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/en/",
   "trailingSlash": false,
   "organizationName": "SisyphusZheng",
   "projectName": "Aircomponents-docs",
