@@ -30,7 +30,7 @@ function Feature({ Svg, title, description }) {
       </div>
       <div slot="content">
         <div className="text--center">
-          <air-header level="3">{title}</air-header>
+          <header level="3">{title}</header>
           <p>{description}</p>
         </div>
       </div>

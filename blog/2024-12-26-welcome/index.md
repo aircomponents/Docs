@@ -5,6 +5,8 @@ authors: []
 tags: []
 ---
 
+<!-- truncate -->
+
 # Web Components 简介
 
 Web Components 是一组不同的技术，允许我们构建封装式的、可重用的 UI 组件。Web Components 包括自定义元素（Custom Elements）、模板（Template）、影子 DOM（Shadow DOM）等技术，可以独立于框架在任何现代浏览器中使用。这使得 Web Components 能够在不同的 JavaScript 框架或库中保持一致的行为和样式，是构建跨平台、模块化 UI 组件的理想选择。

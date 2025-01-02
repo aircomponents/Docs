@@ -1,6 +1,6 @@
 {
   "id": "basic-components/button",
-  "title": "Air-Button",
+  "title": "air-button",
   "description": "Properties",
   "source": "@site/docs/basic-components/button.mdx",
   "sourceDirName": "basic-components",
@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "frontMatter": {
-    "title": "Air-Button"
+    "title": "air-button"
   },
   "sidebar": "tutorialSidebar",
   "previous": {
