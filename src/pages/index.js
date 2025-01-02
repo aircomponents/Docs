@@ -6,7 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import NoSSR from 'react-no-ssr';
+import NoSSR from '../../docs/basic-components/NoSSR.jsx';
 
 if (typeof window !== 'undefined') {
   // 这里的代码仅在客户端运行

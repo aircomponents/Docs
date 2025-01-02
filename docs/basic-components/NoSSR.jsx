@@ -1,8 +1,13 @@
-import React from "react";
+import { useEffect, useState } from 'react';
 
-export default function NoSSR({ children }) {
-    if (typeof window === "undefined") {
-        return null;
-    }
-    return <>{children}</>
-}
+const NoSSR = ({ children }) => {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  return isClient ? children : null;
+};
+
+export default NoSSR;

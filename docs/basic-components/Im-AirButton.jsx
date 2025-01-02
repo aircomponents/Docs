@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import NoSSR from 'react-no-ssr';
+import NoSSR from './NoSSR.jsx';
 
 const AirButton = (props) => {
   const [isButtonReady, setIsButtonReady] = useState(false);
