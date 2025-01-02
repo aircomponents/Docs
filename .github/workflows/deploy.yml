@@ -17,11 +17,10 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Build Docusaurus
-        run: npm run build
+        run: 
+              yarn install
+              yarn run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
