@@ -7,93 +7,93 @@
         <lastBuildDate>Thu, 26 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>zh-Hans</language>
+        <language>en</language>
         <item>
-            <title><![CDATA[组件库的初步尝试]]></title>
+            <title><![CDATA[A first attempt at a component library]]></title>
             <link>https://SisyphusZheng.github.io/blog/trying</link>
             <guid>https://SisyphusZheng.github.io/blog/trying</guid>
             <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Web Components 是一组不同的技术，允许我们构建封装式的、可重用的 UI 组件。Web Components 包括自定义元素（Custom Elements）、模板（Template）、影子 DOM（Shadow DOM）等技术，可以独立于框架在任何现代浏览器中使用。这使得 Web Components 能够在不同的 JavaScript 框架或库中保持一致的行为和样式，是构建跨平台、模块化 UI 组件的理想选择。]]></description>
-            <content:encoded><![CDATA[<p>Web Components 是一组不同的技术，允许我们构建封装式的、可重用的 UI 组件。Web Components 包括自定义元素（Custom Elements）、模板（Template）、影子 DOM（Shadow DOM）等技术，可以独立于框架在任何现代浏览器中使用。这使得 Web Components 能够在不同的 JavaScript 框架或库中保持一致的行为和样式，是构建跨平台、模块化 UI 组件的理想选择。</p>
-<p>有关 Web Components 的更多信息，可以参考官方文档：<a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank" rel="noopener noreferrer">Web Components Overview</a></p>
-<h1>Stencil 简介</h1>
-<p>Stencil 是一个专注于构建 Web Components 的框架，能够帮助开发者以原生 Web 技术构建高效、模块化的组件。Stencil 提供了增量编译、按需加载、自动优化等功能，可以生成轻量级的 Web 组件，支持 TypeScript 和 JSX，使得开发者可以高效地开发和维护组件。</p>
-<p>关于 Stencil 的详细文档，请参考：<a href="https://stenciljs.com/docs" target="_blank" rel="noopener noreferrer">Stencil Documentation</a></p>
-<h1>Tailwind CSS 简介</h1>
-<p>Tailwind CSS 是一款实用的 CSS 框架，通过预定义的实用工具类，帮助开发者以声明式的方式构建响应式的 UI。与传统的 CSS 框架不同，Tailwind CSS 提供了极高的可定制性，开发者可以根据项目需求定制自己的设计系统。同时，Tailwind CSS 配合工具链使用，还可以实现按需加载，极大地减少生成的 CSS 体积。</p>
-<p>您可以阅读更多关于 Tailwind CSS 的内容，参考：<a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">TailwindCSS Documentation</a></p>
-<h1>React 与 Stencil 的对比</h1>
-<p>在开发 <code>air-components</code> 的过程中，我深入了解了 Stencil 和 React 之间的异同。虽然它们是不同的技术栈，但在组件化开发方面有许多相似之处：</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="相似点">相似点<a href="https://sisyphuszheng.github.io/blog/trying#%E7%9B%B8%E4%BC%BC%E7%82%B9" class="hash-link" aria-label="相似点的直接链接" title="相似点的直接链接">​</a></h2>
+            <description><![CDATA[Web Components is a collection of different technologies that allow us to build encapsulated, reusable UI components. Web Components includes technologies such as Custom Elements, Templates, and Shadow DOM, and can be used in any modern browser independently of a framework. This allows Web Components to maintain consistent behavior and styles across different JavaScript frameworks or libraries, and is ideal for building cross-platform, modular UI components.]]></description>
+            <content:encoded><![CDATA[<p>Web Components is a collection of different technologies that allow us to build encapsulated, reusable UI components. Web Components includes technologies such as Custom Elements, Templates, and Shadow DOM, and can be used in any modern browser independently of a framework. This allows Web Components to maintain consistent behavior and styles across different JavaScript frameworks or libraries, and is ideal for building cross-platform, modular UI components.
+For more information about Web Components, please refer to the official documentation: <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components" target="_blank" rel="noopener noreferrer">Web Components Overview</a></p>
+<h1>Stencil Introduction</h1>
+<p>Stencil is a framework that focuses on building Web Components, helping developers build efficient, modular components using native Web technologies. Stencil provides features such as incremental compilation, on-demand loading, and automatic optimization to generate lightweight Web components. It supports TypeScript and JSX, allowing developers to efficiently develop and maintain components.
+For detailed documentation on Stencil, please refer to: <a href="https://stenciljs.com/docs" target="_blank" rel="noopener noreferrer">Stencil Documentation</a></p>
+<h1>Tailwind CSS Introduction</h1>
+<p>Tailwind CSS is a practical CSS framework that helps developers build responsive UIs in a declarative way through predefined utility classes. Unlike traditional CSS frameworks, Tailwind CSS provides a high degree of customizability, allowing developers to customize their own design systems according to project requirements. At the same time, Tailwind CSS can also be used with a toolchain to implement on-demand loading, which greatly reduces the volume of generated CSS.
+You can read more about Tailwind CSS at <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener noreferrer">TailwindCSS Documentation</a></p>
+<h1>React vs Stencil</h1>
+<p>While developing <code>air-components</code>, I gained a deeper understanding of the similarities and differences between Stencil and React. Although they are different technology stacks, they have many similarities in component-based development:</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="similarities">Similarities<a href="https://sisyphuszheng.github.io/blog/trying#similarities" class="hash-link" aria-label="Direct link to Similarities" title="Direct link to Similarities">​</a></h2>
 <ol>
-<li><strong>JSX 语法</strong>：React 和 Stencil 都使用类似的 JSX 语法来构建组件的结构，使得开发方式非常相似。</li>
-<li><strong>组件化思想</strong>：两者都遵循组件化开发思想，鼓励开发者将 UI 拆解成多个小组件，通过组合这些小组件构建完整界面。</li>
-<li><strong>生命周期管理</strong>：React 使用 <code>componentDidMount</code> 等生命周期方法，而 Stencil 使用 <code>connectedCallback</code>、<code>disconnectedCallback</code> 等钩子。</li>
-<li><strong>状态管理</strong>：React 通过 <code>state</code> 和 <code>setState</code> 管理状态，Stencil 使用 <code>@State()</code> 装饰器。</li>
-<li><strong>属性传递</strong>：React 中通过 <code>props</code> 向子组件传递数据，Stencil 中通过 <code>@Prop()</code> 装饰器定义属性。</li>
+<li><strong>JSX syntax</strong>: React and Stencil both use similar JSX syntax to structure components, making development very similar.</li>
+<li><strong>Component-based thinking</strong>: Both follow the component-based development philosophy, encouraging developers to break down the UI into multiple widgets and combine these widgets to build a complete interface.</li>
+<li><strong>Lifecycle management</strong>: React uses lifecycle methods such as <code>componentDidMount</code>, while Stencil uses hooks such as <code>connectedCallback</code> and <code>disconnectedCallback</code>.</li>
+<li><strong>State management</strong>: React manages state through <code>state</code> and <code>setState</code>, while Stencil uses the <code>@State()</code> decorator.</li>
+<li><strong>Prop passing</strong>: React passes data to child components via <code>props</code>, while Stencil defines properties via the <code>@Prop()</code> decorator.</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="不同点">不同点<a href="https://sisyphuszheng.github.io/blog/trying#%E4%B8%8D%E5%90%8C%E7%82%B9" class="hash-link" aria-label="不同点的直接链接" title="不同点的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="differences">Differences<a href="https://sisyphuszheng.github.io/blog/trying#differences" class="hash-link" aria-label="Direct link to Differences" title="Direct link to Differences">​</a></h2>
 <ol>
-<li><strong>框架依赖</strong>：Stencil 生成的是原生 Web Components，可以在任何现代浏览器中使用，而 React 则依赖其生态系统。</li>
-<li><strong>性能优化</strong>：Stencil 提供按需加载和增量编译，适合开发轻量级组件，而 React 更适合构建复杂的单页应用。</li>
+<li><strong>Framework dependency</strong>: Stencil generates native Web Components that can be used in any modern browser, while React depends on its ecosystem.</li>
+<li><strong>Performance optimization</strong>: Stencil provides on-demand loading and incremental compilation, which is suitable for developing lightweight components, while React is more suitable for building complex single-page applications.
+Compared with React, I realized that Stencil provides more flexibility in component-based development, especially for cross-platform development that does not rely on a specific framework.</li>
 </ol>
-<p>通过对比，我意识到在组件化开发时，Stencil 提供了更多灵活性，尤其适合不依赖特定框架的跨平台开发。</p>
-<h1>air-components 和 air-components-start</h1>
-<p><code>air-components</code> 是一个简单、高效且易于扩展的 UI 组件库，提供了一些常用的 UI 组件，如按钮（<code>air-button</code>）、卡片（<code>air-card</code>）和段落（<code>air-paragraph</code>）。这些组件经过精心设计，能够在不同设备上保持响应式表现，并且可以无缝集成到任何现代框架或原生 Web 项目中。</p>
-<p>为了帮助开发者快速上手，我创建了 <code>air-components-start</code>。这是一个简化的模板项目，预先配置了必要的工具和依赖，基于最佳实践，减少了开发者从零开始的工作量。
-<img decoding="async" loading="lazy" src="https://i-blog.csdnimg.cn/direct/ccc22c07e0d246478d3c3d31797b312b.jpeg#pic_center" alt="在��这里插入图片描述" class="img_ev3q"></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="使用-air-components-start">使用 <code>air-components-start</code><a href="https://sisyphuszheng.github.io/blog/trying#%E4%BD%BF%E7%94%A8-air-components-start" class="hash-link" aria-label="使用-air-components-start的直接链接" title="使用-air-components-start的直接链接">​</a></h2>
+<h1>air-components and air-components-start</h1>
+<p><code>air-components</code> is a simple, efficient and easily extensible library of UI components that provides some commonly used UI components such as buttons (<code>air-button</code>), cards (<code>air-card</code>) and paragraphs (<code>air-paragraph</code>). These components are carefully designed to maintain a responsive performance on different devices and can be seamlessly integrated into any modern framework or native web project.
+To help developers get started quickly, I created <code>air-components-start</code>. This is a simplified template project that comes preconfigured with the necessary tools and dependencies, based on best practices and reduces the workload of developers starting from scratch.
+<img decoding="async" loading="lazy" src="https://i-blog.csdnimg.cn/direct/ccc22c07e0d246478d3c3d31797b312b.jpeg#pic_center" alt="Insert image description here" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="using-air-components-start">Using <code>air-components-start</code><a href="https://sisyphuszheng.github.io/blog/trying#using-air-components-start" class="hash-link" aria-label="Direct link to using-air-components-start" title="Direct link to using-air-components-start">​</a></h2>
 <ol>
-<li>克隆模板项目：</li>
+<li>Clone the template project:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/SisyphusZheng/air-components-start.git</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git clone https://github.com/SisyphusZheng/air-components-start.git</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="2">
-<li>安装依赖：</li>
+<li>Install dependencies:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cd air-components-start &amp;&amp; npm install</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cd air-components-start &amp;&amp; npm install</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <ol start="3">
-<li>启动开发环境：</li>
+<li>Start the development environment:</li>
 </ol>
-<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm start</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h1>框架结构</h1>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="为什么选择-stencil--tailwind-css">为什么选择 Stencil + Tailwind CSS<a href="https://sisyphuszheng.github.io/blog/trying#%E4%B8%BA%E4%BB%80%E4%B9%88%E9%80%89%E6%8B%A9-stencil--tailwind-css" class="hash-link" aria-label="为什么选择 Stencil + Tailwind CSS的直接链接" title="为什么选择 Stencil + Tailwind CSS的直接链接">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stencil-�的优势">Stencil 的优势<a href="https://sisyphuszheng.github.io/blog/trying#stencil-%E7%9A%84%E4%BC%98%E5%8A%BF" class="hash-link" aria-label="Stencil 的优势的直接链接" title="Stencil 的优势的直接链接">​</a></h3>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm start</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h1>Framework structure</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-stencil--tailwind-css">Why Stencil + Tailwind CSS<a href="https://sisyphuszheng.github.io/blog/trying#why-stencil--tailwind-css" class="hash-link" aria-label="Direct link to Why Stencil + Tailwind CSS" title="Direct link to Why Stencil + Tailwind CSS">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="stencil-advantages">Stencil advantages<a href="https://sisyphuszheng.github.io/blog/trying#stencil-advantages" class="hash-link" aria-label="Direct link to Stencil advantages" title="Direct link to Stencil advantages">​</a></h3>
 <ol>
-<li><strong>原生支持 Web Components</strong>：无需依赖其他前端框架，组件可以直接在任何现代浏览器中运行。</li>
-<li><strong>自动优化</strong>：提供代码清理和高效打包功能，生成轻量级组件。</li>
-<li><strong>支持 TypeScript</strong>：提供类型安全和更高的开发效率。</li>
-<li><strong>高性能</strong>：通过增量编译和按需加载，实现更快的开发和运行速度。</li>
+<li><strong>Native support for Web Components</strong>: No need to rely on other front-end frameworks, components can be run directly in any modern browser.</li>
+<li><strong>Automatic optimization</strong>: Provides code cleaning and efficient packaging functions to generate lightweight components.</li>
+<li><strong>Support for TypeScript</strong>: Provides type safety and higher development efficiency.</li>
+<li><strong>High performance</strong>: Faster development and faster running speeds through incremental compilation and on-demand loading.</li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tailwind-css-的优势">Tailwind CSS 的优势<a href="https://sisyphuszheng.github.io/blog/trying#tailwind-css-%E7%9A%84%E4%BC%98%E5%8A%BF" class="hash-link" aria-label="Tailwind CSS 的优势的直接链接" title="Tailwind CSS 的优势的直接链接">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tailwind-css-advantages">Tailwind CSS advantages<a href="https://sisyphuszheng.github.io/blog/trying#tailwind-css-advantages" class="hash-link" aria-label="Direct link to Tailwind CSS advantages" title="Direct link to Tailwind CSS advantages">​</a></h3>
 <ol>
-<li><strong>类名即设计</strong>：通过使用预定义工具类，快速实现响应式布局和定制化设计。</li>
-<li><strong>高度可定制</strong>：通过配置文件轻松调整设计系统。</li>
-<li><strong>按需加载</strong>：结合工具链极大减少生成的 CSS 体积。</li>
+<li><strong>Class names are design</strong>: Responsive layouts and custom designs can be implemented quickly by using predefined tool classes.</li>
+<li><strong>Highly customizable</strong>: The design system can be easily adjusted using configuration files.</li>
+<li><strong>Load on demand</strong>: The tool chain can be combined to greatly reduce the size of the generated CSS.</li>
 </ol>
-<h1>实践过程</h1>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-环境搭建">1. 环境搭建<a href="https://sisyphuszheng.github.io/blog/trying#1-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" class="hash-link" aria-label="1. 环境搭建的直接链接" title="1. 环境搭建的直接链接">​</a></h2>
-<p>在 <code>air-components</code> 项目的初始化过程中，我采取了以下步骤：</p>
+<h1>Practical process</h1>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-environment-setup">1. Environment setup<a href="https://sisyphuszheng.github.io/blog/trying#1-environment-setup" class="hash-link" aria-label="Direct link to 1. Environment setup" title="Direct link to 1. Environment setup">​</a></h2>
+<p>During the initialization of the <code>air-components</code> project, I took the following steps:</p>
 <ol>
-<li><strong>初始化项目</strong>：使用 Stencil 官方 CLI 快速创建新项目。</li>
-<li><strong>集成 Tailwind CSS</strong>：通过开源插件<a href="https://www.npmjs.com/package/stencil-tailwind-plugin" target="_blank" rel="noopener noreferrer">stencil-tailwind-plugin
+<li><strong>Initialize the project</strong>: Quickly create a new project using the official Stencil CLI.</li>
+<li><strong>Integrate Tailwind CSS</strong>: Use the open source <a href="https://www.npmjs.com/package/stencil-tailwind-plugin" target="_blank" rel="noopener noreferrer">stencil-tailwind-plugin
 </a></li>
-<li><strong>配置文件优化</strong>：根据项目需求，调整 <code>tailwind.config.js</code> 和 Stencil 配置文件。</li>
+<li><strong>Configuration file optimization</strong>: Tailor <code>tailwind.config.js</code> and Stencil configuration files to your project's needs.</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-构建基础组件">2. 构建基础组件<a href="https://sisyphuszheng.github.io/blog/trying#2-%E6%9E%84%E5%BB%BA%E5%9F%BA%E7%A1%80%E7%BB%84%E4%BB%B6" class="hash-link" aria-label="2. 构建基础组件的直接链接" title="2. 构建基础组件的直接链接">​</a></h2>
-<p>当前 <code>air-components</code> 包含以下基础组件：</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="air-button">air-button<a href="https://sisyphuszheng.github.io/blog/trying#air-button" class="hash-link" aria-label="air-button的直接链接" title="air-button的直接链接">​</a></h3>
-<p>一个功能全面的按钮组件，支持多种状态（默认、悬停、禁用等），并提供一致的设计风格。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="air-card">air-card<a href="https://sisyphuszheng.github.io/blog/trying#air-card" class="hash-link" aria-label="air-card的直接链接" title="air-card的直接链接">​</a></h3>
-<p>可复用的卡片组件，支持图片、标题和描述内容的组合。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-样式管理">3. 样式管理<a href="https://sisyphuszheng.github.io/blog/trying#3-%E6%A0%B7%E5%BC%8F%E7%AE%A1%E7%90%86" class="hash-link" aria-label="3. 样式管理的直接链接" title="3. 样式管理的直接链接">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-building-basic-components">2. Building basic components<a href="https://sisyphuszheng.github.io/blog/trying#2-building-basic-components" class="hash-link" aria-label="Direct link to 2. Building basic components" title="Direct link to 2. Building basic components">​</a></h2>
+<p>The current <code>air-components</code> includes the following basic components:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="air-button">air-button<a href="https://sisyphuszheng.github.io/blog/trying#air-button" class="hash-link" aria-label="Direct link to air-button" title="Direct link to air-button">​</a></h3>
+<p>A fully functional button component that supports multiple states (default, hover, disabled, etc.) and provides a consistent design style.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="air-card">air-card<a href="https://sisyphuszheng.github.io/blog/trying#air-card" class="hash-link" aria-label="Direct link to air-card" title="Direct link to air-card">​</a></h3>
+<p>A reusable card component that supports a combination of images, titles, and descriptions.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="3-style-management">3. Style management<a href="https://sisyphuszheng.github.io/blog/trying#3-style-management" class="hash-link" aria-label="Direct link to 3. Style management" title="Direct link to 3. Style management">​</a></h2>
 <ol>
-<li><strong>通用样式</strong>：在 <code>global.css</code> 中定义全局样式规则，例如颜色主题和字体设置。</li>
-<li><strong>组件内样式</strong>：每个组件通过 Tailwind CSS 的实用类名实现独立样式，确保模块化和易维护。</li>
+<li><strong>Global styles</strong>: Global style rules such as color themes and font settings are defined in <code>global.css</code>.</li>
+<li><strong>Component-specific styles</strong>: Each component is independently styled using Tailwind CSS utility class names to ensure modularity and ease of maintenance.</li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="设计参考quakdui">设计参考：quakdUI<a href="https://sisyphuszheng.github.io/blog/trying#%E8%AE%BE%E8%AE%A1%E5%8F%82%E8%80%83quakdui" class="hash-link" aria-label="设计参考：quakdUI的直接链接" title="设计参考：quakdUI的直接链接">​</a></h2>
-<p>为了提升 air-components 的设计灵感，我参考了 quakdUI 作为设计系统的一个优秀范例。quakdUI 提供了一种简洁、现代且高度定制化的设计风格，它的组件在视觉上注重一致性和简洁性，这与 air-components 的设计理念非常契合。你可以根据 quakdUI 的设计理念，调整组件的颜色、间距和排版，使其在不同的 UI 环境中保持一致的外观和用户体验。</p>
-<h1>总结</h1>
-<p>通过使用 Stencil 和 Tailwind CSS 开发 <code>air-components</code>，我们能够快速构建高效、响应式的 UI 组件。这些组件不仅具有出色的跨平台兼容性，还通过模板项目 <code>air-components-start</code> 降低了开发者的上手门槛，为构建现代化 Web 应用提供了坚实的基础。</p>]]></content:encoded>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="design-reference-quakdui">Design reference: quakdUI<a href="https://sisyphuszheng.github.io/blog/trying#design-reference-quakdui" class="hash-link" aria-label="Direct link to Design reference: quakdUI" title="Direct link to Design reference: quakdUI">​</a></h2>
+<p>To improve the design inspiration of air-components, I referenced quakdUI as an excellent example of a design system. quakdUI provides a clean, modern, and highly customizable design style. Its components focus on visual consistency and simplicity, which is very consistent with the design philosophy of air-components. You can adjust the color, spacing, and layout of components based on the design philosophy of quakdUI to give them a consistent look and feel in different UI environments.</p>
+<h1>Summary</h1>
+<p>By developing <code>air-components</code> using Stencil and Tailwind CSS, we can quickly build efficient, responsive UI components. These components not only have excellent cross-platform compatibility, but also reduce the learning curve for developers through the template project <code>air-components-start</code>, providing a solid foundation for building modern web applications.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
