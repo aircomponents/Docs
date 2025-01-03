@@ -32,10 +32,19 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans', // 默认语言设置为简体中文
-    locales: ['zh-Hans', 'en'], // 支持简体中文和英文
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      'zh-Hans': {
+        direction: 'ltr',
+        htmlLang: 'zh-Hans',
+      },
+    },
   },
-
+  
   presets: [
     [
       'classic',
@@ -93,6 +102,10 @@ const config = {
             href: 'https://github.com/SisyphusZheng/aircomponents',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           },
         ],
       },

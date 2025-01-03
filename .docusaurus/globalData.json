@@ -1,28 +1,28 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/zh-Hans/docs",
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "下一步",
           "isLast": true,
-          "path": "/docs",
+          "path": "/zh-Hans/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "basic-components/button",
-              "path": "/docs/basic-components/button",
+              "path": "/zh-Hans/docs/basic-components/button",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/docs/intro",
+              "path": "/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/基础组件",
-              "path": "/docs/category/基础组件",
+              "path": "/zh-Hans/docs/category/基础组件",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -30,7 +30,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
+                "path": "/zh-Hans/docs/intro",
                 "label": "intro"
               }
             }

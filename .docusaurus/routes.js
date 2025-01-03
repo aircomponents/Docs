@@ -3,97 +3,62 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/zh-Hans/blog',
+    component: ComponentCreator('/zh-Hans/blog', '9c9'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    path: '/zh-Hans/blog/archive',
+    component: ComponentCreator('/zh-Hans/blog/archive', 'c6a'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    path: '/zh-Hans/blog/authors',
+    component: ComponentCreator('/zh-Hans/blog/authors', 'eed'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    path: '/zh-Hans/blog/authors/zhizheng',
+    component: ComponentCreator('/zh-Hans/blog/authors/zhizheng', 'd06'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    path: '/zh-Hans/blog/trying',
+    component: ComponentCreator('/zh-Hans/blog/trying', 'a34'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    path: '/zh-Hans/markdown-page',
+    component: ComponentCreator('/zh-Hans/markdown-page', '1d3'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
-    path: '/blog',
-    component: ComponentCreator('/blog', '17d'),
-    exact: true
-  },
-  {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '182'),
-    exact: true
-  },
-  {
-    path: '/blog/authors',
-    component: ComponentCreator('/blog/authors', '0b7'),
-    exact: true
-  },
-  {
-    path: '/blog/authors/zhizheng',
-    component: ComponentCreator('/blog/authors/zhizheng', '1b9'),
-    exact: true
-  },
-  {
-    path: '/blog/trying',
-    component: ComponentCreator('/blog/trying', 'fd7'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '3d7'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '7cb'),
+    path: '/zh-Hans/docs',
+    component: ComponentCreator('/zh-Hans/docs', '634'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', 'dfa'),
+        path: '/zh-Hans/docs',
+        component: ComponentCreator('/zh-Hans/docs', 'ca5'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '173'),
+            path: '/zh-Hans/docs',
+            component: ComponentCreator('/zh-Hans/docs', '5cb'),
             routes: [
               {
-                path: '/docs/basic-components/button',
-                component: ComponentCreator('/docs/basic-components/button', 'cf7'),
+                path: '/zh-Hans/docs/basic-components/button',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/button', '73e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/基础组件',
-                component: ComponentCreator('/docs/category/基础组件', 'cee'),
+                path: '/zh-Hans/docs/category/基础组件',
+                component: ComponentCreator('/zh-Hans/docs/category/基础组件', '3d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/zh-Hans/docs/intro',
+                component: ComponentCreator('/zh-Hans/docs/intro', '16f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -104,8 +69,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
+    path: '/zh-Hans/',
+    component: ComponentCreator('/zh-Hans/', 'fba'),
     exact: true
   },
   {
