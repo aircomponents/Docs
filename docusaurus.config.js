@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Aircomponents',
-  tagline: '轻量化的 Web Components 组件库',
+  tagline: 'Lightweight Web Components',
   favicon: 'img/air-components-logo.svg',
 
   // Set the production url of your site here

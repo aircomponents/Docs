@@ -8,6 +8,8 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import NoSSR from '../../docs/basic-components/NoSSR.jsx';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 if (typeof window !== 'undefined') {
   // 这里的代码仅在客户端运行
   const { AirButton } = require('air-components/dist/aircomponents/aircomponents.esm.js');
@@ -35,7 +37,7 @@ function HomepageHeader() {
                 fontWeight: 'bold',               // 设置字体粗细
               }}
             >
-              现在开始
+              <Translate>Star Now 🚀</Translate>
             </Link>
             </air-button>
           </NoSSR>
