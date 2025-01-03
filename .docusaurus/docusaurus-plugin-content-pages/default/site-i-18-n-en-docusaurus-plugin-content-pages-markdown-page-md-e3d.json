@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/markdown-page",
+  "source": "@site/i18n/en/docusaurus-plugin-content-pages/markdown-page.md",
+  "title": "Markdown page example",
+  "description": "You don't need React to write simple standalone pages.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  },
+  "unlisted": false
+}

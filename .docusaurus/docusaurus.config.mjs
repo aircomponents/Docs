@@ -8,20 +8,29 @@ export default {
   "tagline": "轻量化的 Web Components 组件库",
   "favicon": "img/air-components-logo.svg",
   "url": "https://SisyphusZheng.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/zh-Hans/",
   "trailingSlash": false,
   "organizationName": "SisyphusZheng",
   "projectName": "Aircomponents-docs",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "zh-Hans",
+    "defaultLocale": "en",
     "locales": [
-      "zh-Hans",
-      "en"
+      "en",
+      "zh-Hans"
     ],
-    "path": "i18n",
-    "localeConfigs": {}
+    "localeConfigs": {
+      "en": {
+        "htmlLang": "en-GB",
+        "direction": "ltr"
+      },
+      "zh-Hans": {
+        "direction": "ltr",
+        "htmlLang": "zh-Hans"
+      }
+    },
+    "path": "i18n"
   },
   "presets": [
     [
@@ -54,9 +63,9 @@ export default {
   "themeConfig": {
     "image": "img/air-components-board.png",
     "navbar": {
-      "title": "AirComponents",
+      "title": "空气组件",
       "logo": {
-        "alt": "AirComponents",
+        "alt": "空气组件",
         "src": "img/air-components-logo.svg"
       },
       "items": [
@@ -75,6 +84,12 @@ export default {
           "href": "https://github.com/SisyphusZheng/aircomponents",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "type": "localeDropdown",
+          "position": "left",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
         }
       ],
       "hideOnScroll": false
@@ -114,7 +129,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Aircomponents."
+      "copyright": "版权所有 © 2025 Aircomponents."
     },
     "prism": {
       "theme": {

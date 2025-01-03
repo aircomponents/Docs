@@ -1,9 +1,9 @@
 {
-  "title": "Recent posts",
+  "title": "最近发布",
   "items": [
     {
       "title": "组件库的初步尝试",
-      "permalink": "/blog/trying",
+      "permalink": "/zh-Hans/blog/trying",
       "unlisted": false,
       "date": "2024-12-26T00:00:00.000Z"
     }
