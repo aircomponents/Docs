@@ -33,6 +33,11 @@ export default [
     exact: true
   },
   {
+    path: '/zh-Hans/search',
+    component: ComponentCreator('/zh-Hans/search', '5a1'),
+    exact: true
+  },
+  {
     path: '/zh-Hans/docs',
     component: ComponentCreator('/zh-Hans/docs', '634'),
     routes: [

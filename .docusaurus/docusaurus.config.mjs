@@ -56,9 +56,33 @@ export default {
         },
         "theme": {
           "customCss": "./src/css/custom.css"
+        },
+        "sitemap": {
+          "lastmod": "date",
+          "changefreq": "weekly",
+          "priority": 0.5,
+          "ignorePatterns": [
+            "/tags/**"
+          ],
+          "filename": "sitemap.xml"
         }
       }
     ]
+  ],
+  "plugins": [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        "hashed": true,
+        "language": [
+          "en",
+          "zh"
+        ]
+      }
+    ]
+  ],
+  "themes": [
+    "@docusaurus/theme-live-codeblock"
   ],
   "themeConfig": {
     "image": "img/air-components-board.png",
@@ -356,6 +380,9 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
     }
   },
   "baseUrlIssueBanner": true,
@@ -380,8 +407,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
-  "themes": [],
   "scripts": [],
   "headTags": [],
   "stylesheets": [],

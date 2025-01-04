@@ -16,8 +16,11 @@
   "dependencies": {
     "@aircomponents/components": "^0.0.8",
     "@algolia/client-search": "^5.18.0",
-    "@docusaurus/core": "^3.6.3",
-    "@docusaurus/preset-classic": "^3.6.3",
+    "@docusaurus/core": "3.6.3",
+    "@docusaurus/plugin-sitemap": "^3.7.0",
+    "@docusaurus/preset-classic": "3.6.3",
+    "@docusaurus/theme-live-codeblock": "3.6.3",
+    "@easyops-cn/docusaurus-search-local": "^0.46.1",
     "@mdx-js/react": "^3.0.0",
     "@types/react": "^19.0.2",
     "acorn": "^8.0.0",
