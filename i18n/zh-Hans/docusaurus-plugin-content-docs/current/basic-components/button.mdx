@@ -37,8 +37,7 @@ import AirButton from './Im-AirButton.jsx';
 
 展示一个最基本的按钮，依据 `size`, `variant` 和 `color` 来调整外观。
 
-<AirButton size="medium" variant="solid" color="primary">Primary Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary">
   Primary Button
 </air-button>
@@ -48,30 +47,21 @@ import AirButton from './Im-AirButton.jsx';
 
 展示不同颜色的按钮，涵盖 `primary`, `success`, `info`, `warning`, `danger`, `ghost`。
 
-<AirButton size="medium" variant="solid" color="success">Success Button</AirButton>
-<AirButton size="medium" variant="solid" color="info">Info Button</AirButton>
-<AirButton size="medium" variant="solid" color="warning">Warning Button</AirButton>
-<AirButton size="medium" variant="solid" color="danger">Danger Button</AirButton>
-<AirButton size="medium" variant="solid" color="ghost">Ghost Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary">primary Button</AirButton>
-```html
+```jsx live
+<>
 <air-button size="medium" variant="solid" color="success">Success Button</air-button>
 <air-button size="medium" variant="solid" color="info">Info Button</air-button>
 <air-button size="medium" variant="solid" color="warning">Warning Button</air-button>
 <air-button size="medium" variant="solid" color="danger">Danger Button</air-button>
 <air-button size="medium" variant="solid" color="ghost">Ghost Button</air-button>
-<air-button size="medium" variant="solid" color="primary">primary Button</air-button>
+<air-button size="medium" variant="solid" color="primary">Primary Button</air-button>
+</>
 ```
 
 ### 3. 不同大小的按钮展示 
 `size` 属性的不同效果。你可以使用 `small`, `medium`, `large` 来展示不同的按钮大小。
 
-<AirButton size="small" variant="solid" color="primary">Small Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary">Medium Button</AirButton>
-<AirButton size="large" variant="solid" color="primary">Large Button</AirButton>
-```html
-<air-button size="small" variant="solid" color="primary">Small Button</air-button>
-<air-button size="medium" variant="solid" color="primary">Medium Button</air-button>
+```jsx live
 <air-button size="large" variant="solid" color="primary">Large Button</air-button>
 ```
 
@@ -79,10 +69,7 @@ import AirButton from './Im-AirButton.jsx';
 
 展示带有图标的按钮，使用 `icon` 属性为按钮添加前后缀图标。
 
-<AirButton size="medium" variant="solid" color="primary" icon="🔍">Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary" icon="📥">Download Button</AirButton>
-```html
-<air-button size="medium" variant="solid" color="primary" icon="🔍">Button</air-button>
+```jsx live
 <air-button size="medium" variant="solid" color="primary" icon="📥">Download Button</air-button>
 ```
 
@@ -90,7 +77,6 @@ import AirButton from './Im-AirButton.jsx';
 
 展示按钮处于加载状态时的表现，使用 `loading` 属性。
 
-<AirButton size="medium" variant="solid" color="primary" loading>Button</AirButton>
 ```html
 <air-button size="medium" variant="solid" color="primary" loading>Button</air-button>
 ```
@@ -99,8 +85,7 @@ import AirButton from './Im-AirButton.jsx';
 
 展示禁用状态下的按钮，使用 `disabled` 属性。
 
-<AirButton size="medium" variant="solid" color="primary" disabled>Disabled Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary" disabled>Disabled Button</air-button>
 ```
 
@@ -108,8 +93,7 @@ import AirButton from './Im-AirButton.jsx';
 
 展示选中状态下的按钮，使用 `selected` 属性。
 
-<AirButton size="medium" variant="solid" color="primary" selected>Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary" selected>Button</air-button>
 ```
 
@@ -117,10 +101,8 @@ import AirButton from './Im-AirButton.jsx';
 
 展示有插槽内容（例如文本）的按钮。
 
-<AirButton size="medium" variant="solid" color="primary">
-  <span>Slot Button</span>
-</AirButton>
-```html
+
+```jsx live
 <air-button size="medium" variant="solid" color="primary">
   <span>Slot Button</span>
 </air-button>
@@ -130,15 +112,10 @@ import AirButton from './Im-AirButton.jsx';
 
 展示多种属性组合，突出不同按钮的状态和外观。
 
-<AirButton size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</AirButton>
-<AirButton size="small" variant="text" color="warning" selected>Mix Button</AirButton>
-<AirButton size="medium" variant="solid" color="danger" disabled>Mix Button</AirButton>
-<AirButton size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</AirButton>
-```html
+```jsx live
+<>
 <air-button size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</air-button>
-<air-button size="small" variant="text" color="warning" selected>Mix Button</air-button>
-<air-button size="medium" variant="solid" color="danger" disabled>Mix Button</air-button>
-<air-button size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</air-button>
+</>
 ```
 
 ---

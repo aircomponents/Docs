@@ -32,15 +32,12 @@ import AirButton from './Im-AirButton.jsx';
 #### air-card
 
 ### Example Usage
-
 ### 1.  Basic buttons (default state)
 
 
 Shows a minimalist button with an appearance that can be adjusted based on `size`, `variant` and `color`.
 
-
-<AirButton size="medium" variant="solid" color="primary">Primary Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary">
   Primary Button
 </air-button>
@@ -50,74 +47,60 @@ Shows a minimalist button with an appearance that can be adjusted based on `size
 
 Displays buttons in different colours, covering `primary`, `success`, `info`, `warning`, `danger`, and `ghost`.
 
-<AirButton size="medium" variant="solid" color="success">Success Button</AirButton>
-<AirButton size="medium" variant="solid" color="info">Info Button</AirButton>
-<AirButton size="medium" variant="solid" color="warning">Warning Button</AirButton>
-<AirButton size="medium" variant="solid" color="danger">Danger Button</AirButton>
-<AirButton size="medium" variant="solid" color="ghost">Ghost Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary">primary Button</AirButton>
-```html
+```jsx live
+<>
 <air-button size="medium" variant="solid" color="success">Success Button</air-button>
 <air-button size="medium" variant="solid" color="info">Info Button</air-button>
 <air-button size="medium" variant="solid" color="warning">Warning Button</air-button>
 <air-button size="medium" variant="solid" color="danger">Danger Button</air-button>
 <air-button size="medium" variant="solid" color="ghost">Ghost Button</air-button>
-<air-button size="medium" variant="solid" color="primary">primary Button</air-button>
+<air-button size="medium" variant="solid" color="primary">Primary Button</air-button>
+</>
 ```
 
 ### 3. Demonstration of buttons of different sizes 
 The `size` attribute has different effects. You can use `small`, `medium`, and `large` to display different button sizes.
 
-<AirButton size="small" variant="solid" color="primary">Small Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary">Medium Button</AirButton>
-<AirButton size="large" variant="solid" color="primary">Large Button</AirButton>
-```html
-<air-button size="small" variant="solid" color="primary">Small Button</air-button>
-<air-button size="medium" variant="solid" color="primary">Medium Button</air-button>
+```jsx live
+<>
 <air-button size="large" variant="solid" color="primary">Large Button</air-button>
+</>
 ```
 
 ### 4. Buttons with icons
 Displays buttons with icons. Use the `icon` attribute to add prefix and suffix icons to the buttons.
 
-<AirButton size="medium" variant="solid" color="primary" icon="🔍">Button</AirButton>
-<AirButton size="medium" variant="solid" color="primary" icon="📥">Download Button</AirButton>
-```html
-<air-button size="medium" variant="solid" color="primary" icon="🔍">Button</air-button>
+```jsx live
+<>
 <air-button size="medium" variant="solid" color="primary" icon="📥">Download Button</air-button>
+</>
 ```
 
 ### 5. Loading status button
 Use the `loading` attribute to show the button while it is loading.
 
-<AirButton size="medium" variant="solid" color="primary" loading>Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary" loading>Button</air-button>
 ```
 
 ### 6. Disable status button
 To display buttons in a disabled state, use the `disabled` attribute.
 
-<AirButton size="medium" variant="solid" color="primary" disabled>Disabled Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary" disabled>Disabled Button</air-button>
 ```
 
 ### 7. Select the status button
 Show the button in the selected state, using the `selected` property.
 
-<AirButton size="medium" variant="solid" color="primary" selected>Button</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary" selected>Button</air-button>
 ```
 
 ### 8. Buttons with slot contents
 Display buttons with slotted content (e.g. text).
 
-<AirButton size="medium" variant="solid" color="primary">
-  <span>Slot Button</span>
-</AirButton>
-```html
+```jsx live
 <air-button size="medium" variant="solid" color="primary">
   <span>Slot Button</span>
 </air-button>
@@ -126,15 +109,10 @@ Display buttons with slotted content (e.g. text).
 ### 9.Combination example: buttons with different properties
 Showcase multiple combinations of attributes to highlight the state and appearance of different buttons.
 
-<AirButton size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</AirButton>
-<AirButton size="small" variant="text" color="warning" selected>Mix Button</AirButton>
-<AirButton size="medium" variant="solid" color="danger" disabled>Mix Button</AirButton>
-<AirButton size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</AirButton>
-```html
+```jsx live
+<>
 <air-button size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</air-button>
-<air-button size="small" variant="text" color="warning" selected>Mix Button</air-button>
-<air-button size="medium" variant="solid" color="danger" disabled>Mix Button</air-button>
-<air-button size="large" variant="neo" color="info" suffixIcon="📥">Mix Button</air-button>
+</>
 ```
 
 ---

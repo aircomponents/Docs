@@ -75,10 +75,32 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
       }),
     ],
   ],
-
+  plugins: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        hashed: true,
+        language: ["en", "zh"],
+      },
+    ],
+  ],
+  themes: ['@docusaurus/theme-live-codeblock'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
