@@ -1,0 +1,50 @@
+---
+title: button-group
+---
+
+<!-- truncate -->
+
+### Properties
+
+
+| Property       | Attribute   | Description | Type                         | Default        |
+| -------------- | ----------- | ----------- | ---------------------------- | -------------- |
+| `customStyles` | --          |             | `{ [key: string]: string; }` | `{}`           |
+| `direction`    | `direction` |             | `"horizontal" \| "vertical"` | `"horizontal"` |
+| `group`        | `group`     |             | `string`                     | `""`           |
+| `spacing`      | `spacing`   |             | `string`                     | `"5px"`        |
+
+### Example Usage
+
+### 1. 基本按钮（默认状态）
+
+展示一个最基本的按钮，依据 `horizontal`, `spacing` 和 `customStyles` 来调整外观。
+
+```jsx live
+<>
+<air-button-group direction="horizontal" spacing="10px" customStyles="">
+  <air-button color="primary">按钮 1</air-button>
+  <air-button color="success">按钮 2</air-button>
+</air-button-group>
+</>
+```
+### 2. 不同方向的按钮
+
+展示不同颜色的按钮，涵盖 `primary`, `success`, `info`, `warning`, `danger`, `ghost`。
+
+```jsx live
+<>
+<air-button-group direction="horizontal" spacing="10px">
+  <air-button color="primary">按钮 1</air-button>
+  <air-button color="success">按钮 2</air-button>
+  <air-button color="danger">按钮 3</air-button>
+</air-button-group>
+
+<air-button-group direction="vertical" spacing="8px">
+  <air-button color="primary">垂直按钮 1</air-button>
+  <air-button color="success">垂直按钮 2</air-button>
+</air-button-group>
+</>
+```
+
+---

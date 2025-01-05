@@ -1,0 +1,49 @@
+---
+title: button-group
+---
+
+<!-- truncate -->
+
+## Properties
+
+
+| Property       | Attribute   | Description | Type                         | Default        |
+| -------------- | ----------- | ----------- | ---------------------------- | -------------- |
+| `customStyles` | --          |             | `{ [key: string]: string; }` | `{}`           |
+| `direction`    | `direction` |             | `"horizontal" \| "vertical"` | `"horizontal"` |
+| `group`        | `group`     |             | `string`                     | `""`           |
+| `spacing`      | `spacing`   |             | `string`                     | `"5px"`        |
+
+## Example Usage
+
+### 1. Basic Button (Default State)
+Displays a basic button with an appearance that can be adjusted based on `horizontal`, `spacing` and
+
+```jsx live
+<>
+<air-button-group direction="horizontal" spacing="10px" customStyles="">
+  <air-button color="primary">Button1</air-button>
+  <air-button color="success">Button2</air-button>
+</air-button-group>
+</>
+```
+### 2. Buttons in different orientations
+Buttons in different colours, covering `primary`, `success`, `info`, `warning`, `danger`, `ghost`.
+
+
+```jsx live
+<>
+<air-button-group direction="horizontal" spacing="10px">
+  <air-button color="primary">Button11</air-button>
+  <air-button color="success">Button2</air-button>
+  <air-button color="danger">Button3</air-button>
+</air-button-group>
+
+<air-button-group direction="vertical" spacing="8px">
+  <air-button color="primary">Button1</air-button>
+  <air-button color="success">Button2</air-button>
+</air-button-group>
+</>
+```
+
+---

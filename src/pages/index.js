@@ -6,14 +6,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import NoSSR from '../../docs/basic-components/NoSSR.jsx';
 
 import Translate, {translate} from '@docusaurus/Translate';
-
-if (typeof window !== 'undefined') {
-  // 这里的代码仅在客户端运行
-  const { AirButton } = require('air-components/dist/aircomponents/aircomponents.esm.js');
-}
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -25,7 +19,6 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-        <NoSSR>
         <air-button size="medium" variant="solid" color="ghost">
             <Link
               to="/docs/intro"
@@ -40,7 +33,6 @@ function HomepageHeader() {
               <Translate>Star Now 🚀</Translate>
             </Link>
             </air-button>
-          </NoSSR>
         </div>
       </div>
     </header>
