@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "basic-components/button-group",
+              "path": "/zh-Hans/docs/basic-components/button-group",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"

@@ -66,22 +66,26 @@
       "plugin": "138e0e15"
     }
   },
-  "/zh-Hans/docs-634": {
+  "/zh-Hans/docs-baf": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/zh-Hans/docs-ca5": {
+  "/zh-Hans/docs-b41": {
     "__comp": "a7bd4aaa",
     "__props": "eceef310"
   },
-  "/zh-Hans/docs-5cb": {
+  "/zh-Hans/docs-576": {
     "__comp": "a94703ab"
   },
   "/zh-Hans/docs/basic-components/button-73e": {
     "__comp": "17896441",
     "content": "e724192f"
+  },
+  "/zh-Hans/docs/basic-components/button-group-614": {
+    "__comp": "17896441",
+    "content": "4f8e3561"
   },
   "/zh-Hans/docs/category/基础组件-3d2": {
     "__comp": "14eb3368",

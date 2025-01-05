@@ -1,44 +1,35 @@
 ---
-title: air-button
+title: button
 ---
 
 <!-- truncate -->
 
+### Props
 
-import NoSSR from './NoSSR.jsx';
-import AirButton from './Im-AirButton.jsx';
+| Property     | Attribute     | Description | Type                                                                                | Default     |
+| ------------ | ------------- | ----------- | ----------------------------------------------------------------------------------- | ----------- |
+| `color`      | `color`       |             | `"danger" \| "default" \| "ghost" \| "info" \| "primary" \| "success" \| "warning"` | `"default"` |
+| `disabled`   | `disabled`    |             | `boolean`                                                                           | `false`     |
+| `icon`       | `icon`        |             | `string`                                                                            | `""`        |
+| `loading`    | `loading`     |             | `boolean`                                                                           | `false`     |
+| `selected`   | `selected`    |             | `boolean`                                                                           | `false`     |
+| `size`       | `size`        |             | `"large" \| "medium" \| "small"`                                                    | `"medium"`  |
+| `suffixIcon` | `suffix-icon` |             | `string`                                                                            | `""`        |
+| `variant`    | `variant`     |             | `"default" \| "neo" \| "outline" \| "solid" \| "text"`                              | `"default"` |
 
-### Properties
 
-| Property     | Attribute     | Description                            | Type                                                              | Default    |
-| ------------ | ------------- | -------------------------------------- | ----------------------------------------------------------------- | ---------- |
-| `autoWidth`  | `auto-width`  | Enable automatic width adjustment                       | `boolean`                                                         | `false`    |
-| `circle`     | `circle`      | Show Round Buttons                           | `boolean`                                                         | `false`    |
-| `content`    | `content`     | Button text content                           | `string`                                                          | `''`       |
-| `disabled`   | `disabled`    | disable button                               | `boolean`                                                         | `false`    |
-| `ghost`      | `ghost`       | Display buttons in ghost style                     | `boolean`                                                         | `false`    |
-| `icon`       | `icon`        | Display icons in buttons                       | `string`                                                          | `''`       |
-| `loading`    | `loading`     | Show loading status icon                       | `boolean`                                                         | `false`    |
-| `plain`      | `plain`       | Applying Rustic Style                           | `boolean`                                                         | `false`    |
-| `round`      | `round`       | Show rounded buttons                           | `boolean`                                                         | `false`    |
-| `size`       | `size`        | Button Size                               | `"big" \| "medium" \| "small"`                                    | `'medium'` |
-| `suffixIcon` | `suffix-icon` | Show button suffix icon                       | `string`                                                          | `''`       |
-| `type`       | `type`        | Button Type                               | `"" \| "danger" \| "info" \| "primary" \| "success" \| "warning"` | `''`       |
+### Events
 
-### Dependencies
+| Event         | Description | Type                                                     |
+| ------------- | ----------- | -------------------------------------------------------- |
+| `buttonClick` |             | `CustomEvent<{ event: MouseEvent; selected: boolean; }>` |
 
-### Used by
-
-#### air-card
-
-### Example Usage
-### 1.  Basic buttons (default state)
-
+### 1. Basic buttons (default state)
 
 Shows a minimalist button with an appearance that can be adjusted based on `size`, `variant` and `color`.
 
 ```jsx live
-<air-button size="medium" variant="solid" color="primary">
+<air-button size="medium" variant="default" color="default">
   Primary Button
 </air-button>
 ```
@@ -49,70 +40,60 @@ Displays buttons in different colours, covering `primary`, `success`, `info`, `w
 
 ```jsx live
 <>
-<air-button size="medium" variant="solid" color="success">Success Button</air-button>
-<air-button size="medium" variant="solid" color="info">Info Button</air-button>
-<air-button size="medium" variant="solid" color="warning">Warning Button</air-button>
-<air-button size="medium" variant="solid" color="danger">Danger Button</air-button>
-<air-button size="medium" variant="solid" color="ghost">Ghost Button</air-button>
-<air-button size="medium" variant="solid" color="primary">Primary Button</air-button>
+<air-button color="primary">primary</air-button>
+<air-button color="success">success</air-button>
+<air-button color="info">info</air-button>
+<air-button color="warning">warning</air-button>
+<air-button color="danger">danger</air-button>
+<air-button color="ghost">ghost</air-button>
 </>
 ```
 
-### 3. Demonstration of buttons of different sizes 
-The `size` attribute has different effects. You can use `small`, `medium`, and `large` to display different button sizes.
+### 3. Buttons of different sizes demonstrate the different effects of the 
+`size` attribute. You can use `small`, `medium`, and `large` to demonstrate different button sizes.
 
 ```jsx live
 <>
-<air-button size="large" variant="solid" color="primary">Large Button</air-button>
+<air-button size="small">small Button</air-button>
+<air-button size="medium">medium Button</air-button>
+<air-button size="large">Large Button</air-button>
 </>
 ```
 
 ### 4. Buttons with icons
-Displays buttons with icons. Use the `icon` attribute to add prefix and suffix icons to the buttons.
+Displays buttons with icons. Use the `icon`,`suffix-icon` attributes to add prefix and suffix icons to buttons.
 
 ```jsx live
 <>
-<air-button size="medium" variant="solid" color="primary" icon="📥">Download Button</air-button>
+<air-button icon="⭐">图标按钮</air-button>
+<air-button suffix-icon="✓">后缀图标按钮</air-button>
+<air-button icon="🔄" suffix-icon="✓">双图标按钮</air-button>
 </>
 ```
 
-### 5. Loading status button
-Use the `loading` attribute to show the button while it is loading.
-
-```jsx live
-<air-button size="medium" variant="solid" color="primary" loading>Button</air-button>
-```
-
-### 6. Disable status button
-To display buttons in a disabled state, use the `disabled` attribute.
-
-```jsx live
-<air-button size="medium" variant="solid" color="primary" disabled>Disabled Button</air-button>
-```
-
-### 7. Select the status button
-Show the button in the selected state, using the `selected` property.
-
-```jsx live
-<air-button size="medium" variant="solid" color="primary" selected>Button</air-button>
-```
-
-### 8. Buttons with slot contents
-Display buttons with slotted content (e.g. text).
-
-```jsx live
-<air-button size="medium" variant="solid" color="primary">
-  <span>Slot Button</span>
-</air-button>
-```
-
-### 9.Combination example: buttons with different properties
-Showcase multiple combinations of attributes to highlight the state and appearance of different buttons.
+### 5. Different styles of buttons
+show how buttons look when they are in button style mode, using the `solid`, `outline`, `text`, `neo`, and `default` attributes.
 
 ```jsx live
 <>
-<air-button size="large" variant="outline" color="success" icon="🔍" loading>Mix Button</air-button>
+<air-button variant="solid">solid</air-button>
+<air-button variant="outline">outline</air-button>
+<air-button variant="text">text</air-button>
+<air-button variant="neo">neo</air-button>
+<air-button variant="default">default</air-button>
 </>
 ```
 
+### 6. Loading, disabled, selected state display
+Display buttons in the loading, disabled, or selected state using the `loading`, `disabled`, `icon`, `selected`, and other attributes.
+
+```jsx live
+<>
+<air-button loading>loading</air-button>
+<air-button disabled>disabled</air-button>
+<air-button disabled icon="❌">icon</air-button>
+<air-button selected>selected</air-button>
+<air-button selected icon="✔️">selectedWithIcon</air-button>
+</>
+```
 ---
