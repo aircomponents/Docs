@@ -6,7 +6,7 @@
 export default {
   "title": "Aircomponents",
   "tagline": "Lightweight Web Components",
-  "favicon": "img/air-components-logo.svg",
+  "favicon": "img/favicon.ico",
   "url": "https://SisyphusZheng.github.io",
   "baseUrl": "/zh-Hans/",
   "trailingSlash": false,
@@ -90,7 +90,7 @@ export default {
       "title": "空气组件",
       "logo": {
         "alt": "空气组件",
-        "src": "img/air-components-logo.svg"
+        "src": "img/logo-RColor.svg"
       },
       "items": [
         {
