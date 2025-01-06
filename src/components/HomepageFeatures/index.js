@@ -5,17 +5,14 @@ import airComponentsBoard from '@site/static/img/air-components-board.png';
 const FeatureList = [
   {
     title: '简单易用',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: 'AirComponents 旨在从零开始为开发者提供高效、直观的组件库。',
   },
   {
     title: '专注于核心',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: '通过精简的设计和现代化的工具链，AirComponents 让你可以专注于开发的关键部分。',
   },
   {
     title: '支持原生 Web 技术',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: '利用 Web Components 技术，AirComponents 提供强大的扩展能力和无框架依赖的生态。',
   },
 ];

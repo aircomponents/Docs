@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Aircomponents',
   tagline: 'Lightweight Web Components',
-  favicon: 'img/air-components-logo.svg',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://SisyphusZheng.github.io',
@@ -110,7 +110,7 @@ const config = {
         title: 'AirComponents',
         logo: {
           alt: 'AirComponents',
-          src: 'img/air-components-logo.svg',
+          src: 'img/logo-RColor.svg',
         },
         items: [
           {

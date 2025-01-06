@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SisyphusZheng.github.io/blog"/>
     <subtitle>Aircomponents Blog</subtitle>
-    <icon>https://SisyphusZheng.github.io/img/air-components-logo.svg</icon>
+    <icon>https://SisyphusZheng.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[A first attempt at a component library]]></title>
         <id>https://SisyphusZheng.github.io/blog/trying</id>
