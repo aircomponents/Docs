@@ -1,68 +1,71 @@
+import React from 'react';
 import clsx from 'clsx';
-import styles from './styles.module.css';
-import airComponentsBoard from '@site/static/img/air-components-board.png';
+import styles from './styles.module.css'; // 请确保你的样式文件正确
 
-const FeatureList = [
+// 卡片的特性数据
+const featureList = [
   {
-    title: '简单易用',
-    description: 'AirComponents 旨在从零开始为开发者提供高效、直观的组件库。',
+    cardTitle: 'air-card',
+    description: '可以方便地构建卡片布局，支持自定义内容、标题、图片等元素。',
+    imageUrl: '@site/static/img/air-card.png', // 替换成你实际的图片路径
   },
   {
-    title: '专注于核心',
-    description: '通过精简的设计和现代化的工具链，AirComponents 让你可以专注于开发的关键部分。',
+    cardTitle: 'air-button',
+    description: '多种按钮样式，提交、跳转、互动等操作，样式简洁现代，易于使用。',
+    imageUrl: '@site/static/img/air-button.png', // 替换成你实际的图片路径
   },
   {
-    title: '支持原生 Web 技术',
-    description: '利用 Web Components 技术，AirComponents 提供强大的扩展能力和无框架依赖的生态。',
+    cardTitle: 'air-text',
+    description: '显示文本内容，支持多种文本样式，快速生成响应式文本布局。',
+    imageUrl: '@site/static/img/air-text.png', // 替换成你实际的图片路径
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function FeatureCard({ cardTitle, description, imageUrl, showButton }) {
   return (
-    <card className="feature-card">
+    <air-card className="feature-card" size="medium">
+      <span slot="title">{cardTitle}</span>
       <div slot="header">
         <div className="text--center">
-          <Svg className={styles.featureSvg} role="img" />
+          <img src={imageUrl} alt={cardTitle} className={styles.featureImage} />
         </div>
       </div>
       <div slot="content">
         <div className="text--center">
-          <header level="3">{title}</header>
-          <p>{description}</p>
+          <air-text 
+            type="body"  // 设置为 'body' 正常正文文本类型
+            color="primary"  // 设置为 primary 色
+            inline={false}  // 默认不作为行内元素
+            headingSize={3}  // 可选：调整文本大小
+            headingLevel={4}  // 可选：设置为<h4>标签
+          >
+            {description}
+          </air-text>
+          {showButton && (
+            <div className="text--center">
+              <air-button size="medium" variant="solid" color="primary">
+                了解更多
+              </air-button>
+            </div>
+          )}
         </div>
       </div>
-    </card>
+    </air-card>
   );
 }
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      {/* 图片部分 */}
       <div className="container">
         <div className="row">
-          <div className="col col--12">
-            <img
-              src={airComponentsBoard}
-              alt="Air Components Board"
-              className={clsx(styles.featureImage, 'center-block')}
-            />
-          </div>
+          {featureList.map((feature, idx) => (
+            <div className="col col--4" key={idx}>
+              <FeatureCard {...feature} showButton={true} />
+            </div>
+          ))}
         </div>
       </div>
     </section>
   );
 }
-
-{/* 特性部分 */}
-{/* 
-<div className="container">
-  <div className="row">
-    {FeatureList.map((props, idx) => (
-      <div className="col col--4" key={idx}>
-        <Feature {...props} />
-      </div>
-    ))}
-  </div>
-</div>
-*/}

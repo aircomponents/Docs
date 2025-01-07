@@ -8,18 +8,25 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 import Translate, {translate} from '@docusaurus/Translate';
+import airComponentsImage from '../../static/img/aircomponent-header-board.png';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero hero--primary', styles.heroBanner)}
+    style={{
+      backgroundImage: `url(${airComponentsImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+    >
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-        <air-button size="medium" variant="solid" color="ghost">
+        <air-button size="medium" variant="solid" color="ghost" suffix-icon='🚀'>
             <Link
               to="/docs/intro"
               style={{
@@ -30,7 +37,7 @@ function HomepageHeader() {
                 fontWeight: 'bold',               // 设置字体粗细
               }}
             >
-              <Translate>Star Now 🚀</Translate>
+              <Translate>Star Now</Translate>
             </Link>
             </air-button>
         </div>
