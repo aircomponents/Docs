@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'baf'),
+    component: ComponentCreator('/zh-Hans/docs', 'a7f'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', 'b41'),
+        component: ComponentCreator('/zh-Hans/docs', '121'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', '576'),
+            component: ComponentCreator('/zh-Hans/docs', 'e94'),
             routes: [
               {
                 path: '/zh-Hans/docs/basic-components/button',
@@ -58,6 +58,18 @@ export default [
               {
                 path: '/zh-Hans/docs/basic-components/button-group',
                 component: ComponentCreator('/zh-Hans/docs/basic-components/button-group', '614'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/basic-components/card',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/card', '69a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/basic-components/text',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/text', '3f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

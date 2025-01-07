@@ -1,0 +1,139 @@
+---
+title: card
+---
+
+<!-- truncate -->
+
+# demo-card
+
+<!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property      | Attribute     | Description | Type       | Default     |
+| ------------- | ------------- | ----------- | ---------- | ----------- |
+| `cardTitle`   | `card-title`  |             | `string`   | `undefined` |
+| `description` | `description` |             | `string`   | `undefined` |
+| `imageUrl`    | `image-url`   |             | `string`   | `undefined` |
+| `showButton`  | `show-button` |             | `boolean`  | `true`      |
+| `tags`        | --            |             | `string[]` | `[]`        |
+
+
+----------------------------------------------
+
+### 1. 自定义标题、内容和底部插槽的卡片
+
+该示例展示如何自定义 `air-card` 的标题、内容和底部按钮。
+
+```jsx live
+<>
+<air-card imageUrl="https://via.placeholder.com/150" isHighlighted="true">
+  <span slot="title">Custom Card Title</span>
+  
+  <span slot="content">This is custom content for the card. You can replace it with any custom HTML.</span>
+  
+  <div slot="footer">
+    <air-button
+      id="myButton"
+      size="small"
+      variant="solid"
+      color="primary"
+      loading="false"
+      disabled="false"
+    >
+      Click Me
+    </air-button>
+  </div>
+</air-card>
+</>
+```
+
+### 2. 使用默认插槽内容的卡片 
+这个例子展示了一个没有自定义底部的 air-card，仅使用默认插槽内容
+
+```jsx live
+<>
+<air-card isHighlighted="false">
+  <span slot="title">Another Card Title</span>
+  <span slot="content">Here is another custom content for a different card.</span>
+</air-card>
+</>
+```
+
+### 3. 带自定义标题、内容和底部按钮的卡片
+
+展示了一个带有自定义标题、内容和底部按钮的卡片。
+
+```jsx live
+<>
+<air-card isHighlighted="true">
+  <span slot="title">
+    <air-text type="heading" level="1" color="primary">Card Title</air-text>
+  </span>
+  <span slot="content">
+    <air-text type="body" color="secondary">This is a description of the card content. It can be anything, such as a brief introduction or message.</air-text>
+  </span>
+  <div slot="footer">
+    <air-button size="small" variant="solid" color="primary">Learn More</air-button>
+  </div>
+</air-card>
+</>
+```
+
+### 4. 带有图片的卡片
+
+此卡片展示了一个带有图片和自定义内容的卡片。
+
+```jsx live
+<>
+<air-card isHighlighted="false" imageUrl="https://via.placeholder.com/150">
+  <span slot="title">
+    <air-text type="heading" level="2" color="primary">Featured Card</air-text>
+  </span>
+  <span slot="content">
+    <air-text type="body" color="tertiary">This card includes an image and some descriptive content. Click on it for more information.</air-text>
+  </span>
+  <div slot="footer">
+    <air-button size="medium" variant="outline" color="primary">Learn More</air-button>
+  </div>
+</air-card>
+</>
+```
+
+### 5. 大尺寸卡片
+
+展示了一个 size="large" 的卡片，使用响应式标题。
+
+```jsx live
+<>
+<air-card isHighlighted="false" size="large">
+  <span slot="content">
+    <air-text type="fluid-heading" color="primary">Responsive Card Title</air-text>
+  </span>
+</air-card>
+</>
+```
+
+### 5.小尺寸卡片
+
+此卡片展示了一个小尺寸卡片，带有 terms and conditions 的法律文本。
+
+
+```jsx live
+<>
+<air-card isHighlighted="false" size="small">
+  <span slot="title">
+    <air-text type="heading" level="3" color="primary">Terms and Conditions</air-text>
+  </span>
+  <span slot="content">
+    <air-text type="legal" color="tertiary">Please read these terms and conditions carefully before using our service.</air-text>
+  </span>
+  <div slot="footer">
+    <air-button size="small" variant="outline" color="secondary">I Agree</air-button>
+  </div>
+</air-card>
+</>
+```
+
+---

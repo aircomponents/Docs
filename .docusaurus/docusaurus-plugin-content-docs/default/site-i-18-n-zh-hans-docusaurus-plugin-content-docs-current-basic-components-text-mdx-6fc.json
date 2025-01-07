@@ -1,0 +1,22 @@
+{
+  "id": "basic-components/text",
+  "title": "text",
+  "description": "Properties",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/basic-components/text.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/text",
+  "permalink": "/zh-Hans/docs/basic-components/text",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic-components/text.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "text"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "card",
+    "permalink": "/zh-Hans/docs/basic-components/card"
+  }
+}

@@ -21,6 +21,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "basic-components/card",
+              "path": "/zh-Hans/docs/basic-components/card",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-components/text",
+              "path": "/zh-Hans/docs/basic-components/text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"
