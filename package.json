@@ -14,7 +14,7 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@aircomponents/ui": "^0.0.7",
+    "@aircomponents/ui": "^0.0.8",
     "@algolia/client-search": "^5.18.0",
     "@docusaurus/plugin-sitemap": "^3.7.0",
     "@docusaurus/preset-classic": "3.6.3",

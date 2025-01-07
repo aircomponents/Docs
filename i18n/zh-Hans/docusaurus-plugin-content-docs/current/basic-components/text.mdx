@@ -1,0 +1,112 @@
+---
+title: text
+---
+
+<!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property       | Attribute       | Description | Type                                                                                                                                           | Default     |
+| -------------- | --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| `color`        | `color`         |             | `"error" \| "helper" \| "inverse" \| "on-color" \| "primary" \| "secondary" \| "tertiary"`                                                     | `'primary'` |
+| `configAria`   | `config-aria`   |             | `any`                                                                                                                                          | `{}`        |
+| `expressive`   | `expressive`    |             | `boolean`                                                                                                                                      | `false`     |
+| `headingLevel` | `heading-level` |             | `1 \| 2 \| 3 \| 4 \| 5 \| 6`                                                                                                                   | `undefined` |
+| `headingSize`  | `heading-size`  |             | `1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7`                                                                                                              | `undefined` |
+| `inline`       | `inline`        |             | `boolean`                                                                                                                                      | `false`     |
+| `type`         | `type`          |             | `"body" \| "body-compact" \| "body-emphasis" \| "body-large" \| "code" \| "fluid-heading" \| "heading" \| "helper-text" \| "label" \| "legal"` | `'body'`    |
+
+
+----------------------------------------------
+
+`air-text` 组件用于渲染不同类型的文本，如标题、段落、说明文本等，支持多种样式和颜色选项。
+
+## 属性说明
+
+- **`type`**：指定文本类型。支持以下选项：
+  - `'code'`：显示代码文本
+  - `'helper-text'`：辅助文本
+  - `'label'`：标签文本
+  - `'legal'`：法律文本
+  - `'heading'`：标题文本
+  - `'body'`：普通正文文本
+  - `'body-compact'`：紧凑型正文文本
+  - `'body-large'`：大号正文文本
+  - `'body-emphasis'`：强调型正文文本
+  - `'fluid-heading'`：流动标题文本
+
+- **`expressive`**：是否启用富有表现力的文本样式（默认值：`false`）。
+
+- **`headingSize`**：标题的大小，1 至 7 之间的数字，影响 `heading` 类型文本的显示大小。
+
+- **`headingLevel`**：标题的级别，1 至 6 之间的数字。决定 `<h1>` 至 `<h6>` 标签的使用。
+
+- **`inline`**：是否将文本渲染为行内元素（默认值：`false`）。
+
+- **`color`**：文本颜色，支持以下选项：
+  - `'primary'`：主要颜色
+  - `'secondary'`：次要颜色
+  - `'tertiary'`：第三颜色
+  - `'helper'`：辅助颜色
+  - `'error'`：错误颜色
+  - `'on-color'`：文本颜色为自定义颜色
+  - `'inverse'`：反向颜色
+
+- **`configAria`**：用于配置 ARIA 属性，允许你将 ARIA 属性附加到文本元素上
+
+## 使用示例
+
+### 1. 渲染不同类型的文本
+
+```jex live
+<>
+<air-text type="heading" level="1">Main Heading</air-text>
+<air-text type="body">This is a simple paragraph.</air-text>
+<air-text type="helper-text">Helper text to guide the user.</air-text>
+<air-text type="code">const x = 10;</air-text>
+</>
+```
+
+### 2. 渲染不同级别的标题
+
+```jex live
+<>
+<air-text type="heading" headingSize="1">Heading 1</air-text>
+<air-text type="heading" headingSize="2">Heading 2</air-text>
+<air-text type="heading" headingSize="3">Heading 3</air-text>
+<air-text type="heading" headingSize="4">Heading 4</air-text>
+<air-text type="heading" headingSize="5">Heading 5</air-text>
+<air-text type="heading" headingSize="6">Heading 6</air-text>
+</>
+```
+
+### 3. 使用颜色样式
+
+```jex live
+<>
+<air-text type="heading" level="1">Main Heading</air-text>
+<air-text type="body">This is a simple paragraph.</air-text>
+<air-text type="helper-text">Helper text to guide the user.</air-text>
+<air-text type="code">const x = 10;</air-text>
+</>
+```
+
+### 4. 行内文本
+
+```jex live
+<air-text type="body" inline={true}>This text is inline.</air-text>
+```
+
+### 5. 启用表现力样式
+
+```jex live
+<air-text type="body" expressive={true}>This is expressive text.</air-text>
+```
+
+### 6. ARIA 属性
+
+```jex live
+<air-text type="body" configAria={{"aria-label": "Descriptive text"}}>This text has ARIA attributes.</air-text>
+```
+

@@ -18,5 +18,9 @@
   "previous": {
     "title": "button-group",
     "permalink": "/docs/basic-components/button-group"
+  },
+  "next": {
+    "title": "card",
+    "permalink": "/docs/basic-components/card"
   }
 }

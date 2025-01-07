@@ -1,0 +1,91 @@
+---
+title: text
+---
+
+<!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property       | Attribute       | Description | Type                                                                                                                                           | Default     |
+| -------------- | --------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| `color`        | `color`         |             | `"error" \| "helper" \| "inverse" \| "on-color" \| "primary" \| "secondary" \| "tertiary"`                                                     | `'primary'` |
+| `configAria`   | `config-aria`   |             | `any`                                                                                                                                          | `{}`        |
+| `expressive`   | `expressive`    |             | `boolean`                                                                                                                                      | `false`     |
+| `headingLevel` | `heading-level` |             | `1 \| 2 \| 3 \| 4 \| 5 \| 6`                                                                                                                   | `undefined` |
+| `headingSize`  | `heading-size`  |             | `1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7`                                                                                                              | `undefined` |
+| `inline`       | `inline`        |             | `boolean`                                                                                                                                      | `false`     |
+| `type`         | `type`          |             | `"body" \| "body-compact" \| "body-emphasis" \| "body-large" \| "code" \| "fluid-heading" \| "heading" \| "helper-text" \| "label" \| "legal"` | `'body'`    |
+
+
+----------------------------------------------
+
+
+The `air-text` component is used to render different types of text, such as headings, paragraphs, and explanatory text. It supports a variety of style and color options.
+## Property description
+- **`type`**: specifies the type of text. The following options are supported:
+  - `'code'`: displays code text
+  - `'helper-text'`: auxiliary text
+  - `'label'`: label text
+  - `'legal'`: legal text
+  - `'heading'`: heading text
+- `'body'`: normal body text
+- `'body-compact'`: compact body text
+- `'body-large'`: large body text
+- `'body-emphasis'`: emphasised body text
+- `'fluid-heading'`: fluid heading text
+- **`expressive`**: whether to enable the expressive text style (default: `false`).
+- **`headingSize`**: the size of the heading, a number between 1 and 7, which affects the display size of the text of the `heading` type.
+- **`headingLevel`**: the level of the heading, a number between 1 and 6. Determines the use of the `<h1>` to `<h6>` tags.
+- **`inline`**: whether to render the text as an inline element (default: `false`).
+- **`color`**: the text color, with the following options:
+  - `'primary'`: primary color
+  - `'secondary'`: secondary color
+  - `'tertiary'`: tertiary color
+  - `'helper'`: helper color
+  - `'error'`: error color
+- `'on-color'`: text color is custom color
+- `'inverse'`: inverse color
+- **`configAria`**: configures ARIA attributes, allowing you to attach ARIA attributes to text elements
+## Usage examples
+### 1. Rendering different types of text
+```jex live
+<>
+<air-text type='heading' level='1'>Main Heading</air-text>
+<air-text type='body'>This is a simple paragraph.</air-text>
+<air-text type='helper-text'>Helper text to guide the user.</air-text>
+<air-text type='code'>const x = 10;</air-text>
+</>
+```
+### 2. Rendering headings of different levels
+```jex live
+<>
+<air-text type='heading' headingSize='1'>Heading 1</air-text>
+<air-text type='heading' headingSize='2'>Heading 2</air-text>
+<air-text type='heading' headingSize='3'>Heading 3</air-text>
+<air-text type='heading' headingSize='4'>Heading 4</air-text>
+<air-text type='heading' headingSize='5'>Heading 5</air-text>
+<air-text type='heading' headingSize='6'>Heading 6</air-text>
+</>
+```
+### 3. Use color styles
+```jex live
+<>
+<air-text type='heading' level='1'>Main Heading</air-text>
+<air-text type='body'>This is a simple paragraph. </air-text>
+<air-text type='helper-text'>Helper text to guide the user. </air-text>
+<air-text type='code'>const x = 10;</air-text>
+</>
+```
+### 4. Inline text
+```jex live
+<air-text type='body' inline={true}>This text is inline. </air-text>
+```
+### 5. Enable expressive styles
+```jex live
+<air-text type='body' expressive={true}>This is expressive text.</air-text>
+```
+### 6. ARIA attributes
+```jex live
+<air-text type='body' configAria={{'aria-label': 'Descriptive text'}}>This text has ARIA attributes.</air-text>
+```

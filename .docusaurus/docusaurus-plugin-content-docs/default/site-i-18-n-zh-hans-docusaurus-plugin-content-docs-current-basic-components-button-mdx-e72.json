@@ -18,5 +18,9 @@
   "previous": {
     "title": "button-group",
     "permalink": "/zh-Hans/docs/basic-components/button-group"
+  },
+  "next": {
+    "title": "card",
+    "permalink": "/zh-Hans/docs/basic-components/card"
   }
 }
