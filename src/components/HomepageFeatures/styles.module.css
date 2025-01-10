@@ -1,11 +1,57 @@
-.features {
+.sections {
   display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  flex-direction: column;
+  gap: 3rem; /* 每个部分的间距 */
+  padding: 2rem 1rem;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.section {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* 减少图片和文字的间距 */
+  justify-content: center; /* 内容居中，避免图片和文字拉得太开 */
+}
+
+.section.reverse {
+  flex-direction: row-reverse; /* 反转布局：图片在右 */
+}
+
+.imageContainer {
+  flex: 0 0 15%; /* 图片占据 40% 的宽度，避免过宽 */
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* 可选：图片圆角 */
+}
+
+.textContainer {
+  flex: 0 0 30%; /* 文本占据 50% 的宽度 */
+  text-align: left;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.link {
+  margin-top: 1rem;
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
