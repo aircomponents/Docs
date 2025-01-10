@@ -1,0 +1,54 @@
+---
+title: Icon
+---
+# air-icon
+`air-icon` is a general icon component that supports the integration of multiple icon libraries (such as Material Icons, Font Awesome, Boxicons, Iconfont, IconPark, etc.), making the use of icons simpler and more unified.
+---
+## Attribute description
+| Attribute name     | Type     | Description                                                                                           | Default value    |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------- | --------- |
+| `icon-set` | `string` | Specify the prefix of the icon library to be used, e.g. `material-icons`、`fas`、`bx`、`iconfont`、`iconpark`, etc. | None         |
+| `name`     | `string` | The name of the icon, which must match the name of the icon in the corresponding icon library.                                                           | None         |
+| `size`     | `string` | The size of the icon, which can be any valid CSS size value (e.g. `2rem`, `24px`).                                       | `'1rem'`  |
+| `color`    | `string` | Icon colour, supports any valid CSS colour value (e.g. `red`, `#333`).                                        | `inherit` |
+---
+## Example
+### 1. Material Icons example
+```jsx live
+<div>
+  <h3>Material Icons</h3>
+  <air-icon icon-set='material-icons' name='favorite' size='3rem' color='red'></air-icon>
+<air-icon icon-set='material-icons' name='home' size='3rem' color='blue'></air-icon>
+</div>
+```
+### 2. Font Awesome example
+```jsx live
+<div>
+  <h3>Font Awesome</h3>
+<air-icon icon-set='fas' name='heart' size='3rem' color='green'></air-icon>
+<air-icon icon-set='fas' name='home' size='3rem' color='purple'></air-icon>
+</div>
+```
+### 3. Boxicons example
+```jsx live
+<div>
+  <h3>Boxicons</h3>
+<air-icon icon-set='bx' name='bell' size='3rem' color='orange'></air-icon>
+<air-icon icon-set='bxs' name='star' size='3rem' color='purple'></air-icon>
+</div>
+```
+### 4. Iconfont example
+```jsx live
+<div>
+  <h3>Iconfont (Alibaba)</h3>
+<air-icon icon-set='iconfont' name='home' size='3rem' color='pink'></air-icon>
+<air-icon icon-set='iconfont' name='bell' size='3rem' color='brown'></air-icon>
+</div>
+```
+### 5. IconPark example
+```jsx live
+<div>
+<h3>IconPark (Tencent)</h3>
+<air-icon icon-set='iconpark' name='home' size='3rem' color='blue'></air-icon>
+<air-icon icon-set='iconpark' name='heart' size='3rem' color='orange'></air-icon>
+</div>

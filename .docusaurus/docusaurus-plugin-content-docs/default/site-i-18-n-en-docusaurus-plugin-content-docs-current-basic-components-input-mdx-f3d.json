@@ -1,0 +1,26 @@
+{
+  "id": "basic-components/input",
+  "title": "Input",
+  "description": "Properties",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/basic-components/input.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/input",
+  "permalink": "/docs/basic-components/input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic-components/input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Input"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Icon",
+    "permalink": "/docs/basic-components/icon"
+  },
+  "next": {
+    "title": "text",
+    "permalink": "/docs/basic-components/text"
+  }
+}

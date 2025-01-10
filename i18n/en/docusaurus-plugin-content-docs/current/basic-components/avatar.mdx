@@ -1,0 +1,67 @@
+---
+title: avatar
+---
+# air-avatar
+## Attributes
+| Attribute name   | Type                             | Description                                         | Default value      |
+| -------- | -------------------------------- | -------------------------------------------- | ----------- |
+| `name`   | `string`                         | User name, used to display initials.                          | `''`        |
+| `src`    | `string`                         | The URL of the profile picture.                                | `''`        |
+| `size`   | `string`                         | The size of the profile picture. Valid values: `small`, `medium`, `large` or custom. | `'medium'`  |
+| `shape`  | `'circle' \| 'square'`           | The shape of the avatar, supported are `circle` or `square`.                 | `'circle'`  |
+| `border` | `string`                         | Custom border style.                                     | `''`        |
+---
+### 1. Example of customising the avatar image
+```jsx live
+<>
+<div style={{ textAlign: "center" }}>
+  <h2>自定义头像图片</h2>
+  <air-avatar
+    size="large"
+    name="李四"
+    shape="square"
+    src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    class="air-bg-secondary"
+  ></air-avatar>
+</div>
+</>
+```
+### 2. Display initials without an avatar
+```jsx live
+<>
+<div style={{ textAlign: "center" }}>
+  <h2>Display initials without an avatar</h2>
+  <air-avatar
+    size="large"
+    name="Wang Wu"
+    shape="circle"
+    class="air-bg-accent"
+  ></air-avatar>
+</div>
+</>
+```
+
+### 3. Custom size and background
+```jsx live
+<>
+<div style={{ textAlign: "center" }}>
+  <h2>Custom size and background</h2>
+  <air-avatar
+    size="5rem"
+    name="Zhao Liu"
+    shape="circle"
+    class="air-bg-light"
+  ></air-avatar>
+</div>
+</>
+```
+### 4. Multiple avatars
+```jsx live
+<>
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+  <air-avatar size='small' name='John Doe' shape='circle' />
+  <air-avatar size='medium' name='Jane Doe' shape='square' />
+  <air-avatar size='large' name='Peter Doe' shape='circle' />
+</div>
+</>
+```

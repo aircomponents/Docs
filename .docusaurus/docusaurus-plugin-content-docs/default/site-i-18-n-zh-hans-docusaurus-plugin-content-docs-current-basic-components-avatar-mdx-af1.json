@@ -1,0 +1,26 @@
+{
+  "id": "basic-components/avatar",
+  "title": "avatar",
+  "description": "属性",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/basic-components/avatar.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/avatar",
+  "permalink": "/zh-Hans/docs/basic-components/avatar",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic-components/avatar.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "avatar"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "基础组件",
+    "permalink": "/zh-Hans/docs/category/基础组件"
+  },
+  "next": {
+    "title": "button-group",
+    "permalink": "/zh-Hans/docs/basic-components/button-group"
+  }
+}

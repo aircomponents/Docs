@@ -1,0 +1,22 @@
+{
+  "id": "feature-components/user-profile",
+  "title": "user-profile",
+  "description": "Properties",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/feature-components/user-profile.mdx",
+  "sourceDirName": "feature-components",
+  "slug": "/feature-components/user-profile",
+  "permalink": "/docs/feature-components/user-profile",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/feature-components/user-profile.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "user-profile"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "text",
+    "permalink": "/docs/basic-components/text"
+  }
+}
