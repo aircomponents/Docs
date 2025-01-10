@@ -44,8 +44,8 @@
   "theme.common.editThisPage": "编辑此页",
   "theme.common.headingLinkTitle": "{heading}的直接链接",
   "theme.common.skipToMainContent": "跳到主要内容",
-  "theme.contentVisibility.draftBanner.message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
-  "theme.contentVisibility.draftBanner.title": "Draft page",
+  "theme.contentVisibility.draftBanner.message": "此页为草稿。它仅在开发环境中可见，且不会出现在生产环境中。",
+  "theme.contentVisibility.draftBanner.title": "草稿页面",
   "theme.contentVisibility.unlistedBanner.message": "此页面未列出。搜索引擎不会对其索引，只有拥有直接链接的用户才能访问。",
   "theme.contentVisibility.unlistedBanner.title": "未列出页",
   "theme.docs.DocCard.categoryDescription.plurals": "{count} 个项目",
@@ -88,5 +88,12 @@
   "theme.SearchPage.noResultsText": "没有找到任何文档",
   "theme.SearchPage.searchContext.everywhere": "所有",
   "theme.Playground.liveEditor": "实时编辑器",
-  "theme.Playground.result": "结果"
+  "theme.Playground.result": "结果",
+  "Star Now": "现在开始",
+  "Framework agnostic": "框架无关",
+  "AirComponents is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript.": "AirComponents旨在与任何前端技术栈无缝协作。通过利用Web组件，它确保了在React、Vue甚至纯JavaScript等多种框架中保持一致的外观和感觉。",
+  "Easy to use": "易于使用",
+  "With a focus on simplicity and flexibility, AirComponents provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market.": "专注于简洁性和灵活性，借助stencil和tailwind开发，提供预构建的可重用组件和设计模式，简化开发过程，缩短市场发布时间。",
+  "User friendly": "用户友好",
+  "AirComponents ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike.": "AirComponents确保每个组件都具有可访问性、直观性,遵循最新的WCAG 2.1 AA标准。保证开发者和最终用户都能获得无缝的体验。"
 }
