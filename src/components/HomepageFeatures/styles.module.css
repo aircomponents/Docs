@@ -17,7 +17,7 @@
 }
 
 .imageContainer {
-  flex: 0 0 15%; /* 图片占据 40% 的宽度，避免过宽 */
+  flex: 0 0 12%; /* 图片占据 40% 的宽度，避免过宽 */
   display: flex;
   justify-content: center;
 }
@@ -54,4 +54,32 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column; /* 垂直堆叠图片和文字 */
+    text-align: center; /* 居中对齐文字 */
+  }
+
+  .section.reverse {
+    flex-direction: column; /* 确保反转布局在小屏幕也垂直堆叠 */
+    text-align: center; /* 居中对齐文字 */
+  }
+
+  .imageContainer {
+    margin-bottom: 1rem; /* 图片与文字的间距 */
+  }
+
+  .image {
+    max-width: 80%; /* 图片宽度占屏幕的 80% */
+  }
+
+  .title {
+    font-size: 1.25rem; /* 调整标题大小 */
+  }
+
+  .description {
+    font-size: 0.9rem; /* 调整描述文字大小 */
+  }
 }

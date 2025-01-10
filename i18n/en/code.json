@@ -309,5 +309,69 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Star Now": {
+    "message": "Star Now"
+  },
+  "Framework agnostic": {
+    "message": "Framework agnostic"
+  },
+  "AirComponents is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript.": {
+    "message": "AirComponents is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript."
+  },
+  "Easy to use": {
+    "message": "Easy to use"
+  },
+  "With a focus on simplicity and flexibility, AirComponents provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market.": {
+    "message": "With a focus on simplicity and flexibility, AirComponents provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market."
+  },
+  "User friendly": {
+    "message": "User friendly"
+  },
+  "AirComponents ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike.": {
+    "message": "AirComponents ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike."
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See all results outside \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results within \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "Everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No documents were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.Playground.result": {
+    "message": "Result",
+    "description": "The result label of the live codeblocks"
+  },
+  "theme.Playground.liveEditor": {
+    "message": "Live Editor",
+    "description": "The live editor label of the live codeblocks"
   }
 }
