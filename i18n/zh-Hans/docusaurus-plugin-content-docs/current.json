@@ -10,5 +10,9 @@
   "sidebar.tutorialSidebar.category.基础组件.link.generated-index.description": {
     "message": "5分钟了解Docusaurus最重要的概念。.",
     "description": "The generated-index page description for category 基础组件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.feature-components": {
+    "message": "功能组件",
+    "description": "The label for category feature-components in sidebar tutorialSidebar"
   }
 }

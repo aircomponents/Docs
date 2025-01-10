@@ -291,11 +291,11 @@
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "草稿页面",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "此页为草稿。它仅在开发环境中可见，且不会出现在生产环境中。",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
@@ -309,5 +309,69 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "Star Now": {
+    "message": "现在开始"
+  },
+  "Framework agnostic": {
+    "message": "框架无关"
+  },
+  "AirComponents is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript.": {
+    "message": "AirComponents旨在与任何前端技术栈无缝协作。通过利用Web组件，它确保了在React、Vue甚至纯JavaScript等多种框架中保持一致的外观和感觉。"
+  },
+  "Easy to use": {
+    "message": "易于使用"
+  },
+  "With a focus on simplicity and flexibility, AirComponents provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market.": {
+    "message": "专注于简洁性和灵活性，借助stencil和tailwind开发，提供预构建的可重用组件和设计模式，简化开发过程，缩短市场发布时间。"
+  },
+  "User friendly": {
+    "message": "用户友好"
+  },
+  "AirComponents ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike.": {
+    "message": "AirComponents确保每个组件都具有可访问性、直观性,遵循最新的WCAG 2.1 AA标准。保证开发者和最终用户都能获得无缝的体验。"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "没有找到任何文档"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "查看“{context}”以外的全部结果"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "查看“{context}”以内的全部结果"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "查看全部结果"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "“{query}”的搜索结果",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜索文档",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "所有"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "共找到 {count} 篇文档",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "没有找到任何文档",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.Playground.result": {
+    "message": "结果",
+    "description": "The result label of the live codeblocks"
+  },
+  "theme.Playground.liveEditor": {
+    "message": "实时编辑器",
+    "description": "The live editor label of the live codeblocks"
   }
 }
