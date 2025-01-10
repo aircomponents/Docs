@@ -1,0 +1,26 @@
+{
+  "id": "basic-components/icon",
+  "title": "Icon",
+  "description": "air-icon 是一个通用的图标组件，支持集成多种图标库（如 Material Icons、Font Awesome、Boxicons、Iconfont、IconPark 等），让图标的使用更加简单统一。",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/basic-components/icon.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/icon",
+  "permalink": "/zh-Hans/docs/basic-components/icon",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic-components/icon.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Icon"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "card",
+    "permalink": "/zh-Hans/docs/basic-components/card"
+  },
+  "next": {
+    "title": "Input",
+    "permalink": "/zh-Hans/docs/basic-components/input"
+  }
+}

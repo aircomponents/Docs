@@ -39,16 +39,22 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'a7f'),
+    component: ComponentCreator('/zh-Hans/docs', 'f38'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', '121'),
+        component: ComponentCreator('/zh-Hans/docs', '845'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', 'e94'),
+            component: ComponentCreator('/zh-Hans/docs', 'a0e'),
             routes: [
+              {
+                path: '/zh-Hans/docs/basic-components/avatar',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/avatar', '084'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/zh-Hans/docs/basic-components/button',
                 component: ComponentCreator('/zh-Hans/docs/basic-components/button', '73e'),
@@ -68,6 +74,18 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/zh-Hans/docs/basic-components/icon',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/icon', '8d4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/basic-components/input',
+                component: ComponentCreator('/zh-Hans/docs/basic-components/input', '78f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/zh-Hans/docs/basic-components/text',
                 component: ComponentCreator('/zh-Hans/docs/basic-components/text', '3f2'),
                 exact: true,
@@ -76,6 +94,12 @@ export default [
               {
                 path: '/zh-Hans/docs/category/基础组件',
                 component: ComponentCreator('/zh-Hans/docs/category/基础组件', '3d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/feature-components/user-profile',
+                component: ComponentCreator('/zh-Hans/docs/feature-components/user-profile', '095'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

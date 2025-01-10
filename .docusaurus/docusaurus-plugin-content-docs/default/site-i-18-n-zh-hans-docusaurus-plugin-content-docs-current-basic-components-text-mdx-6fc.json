@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "card",
-    "permalink": "/zh-Hans/docs/basic-components/card"
+    "title": "Input",
+    "permalink": "/zh-Hans/docs/basic-components/input"
+  },
+  "next": {
+    "title": "user-profile",
+    "permalink": "/zh-Hans/docs/feature-components/user-profile"
   }
 }

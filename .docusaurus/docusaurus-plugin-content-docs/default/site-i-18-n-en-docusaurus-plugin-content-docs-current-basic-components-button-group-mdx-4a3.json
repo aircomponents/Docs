@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "基础组件",
-    "permalink": "/docs/category/基础组件"
+    "title": "avatar",
+    "permalink": "/docs/basic-components/avatar"
   },
   "next": {
     "title": "button",

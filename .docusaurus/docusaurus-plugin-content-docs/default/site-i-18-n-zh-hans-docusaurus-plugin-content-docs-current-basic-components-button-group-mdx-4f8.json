@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "基础组件",
-    "permalink": "/zh-Hans/docs/category/基础组件"
+    "title": "avatar",
+    "permalink": "/zh-Hans/docs/basic-components/avatar"
   },
   "next": {
     "title": "button",

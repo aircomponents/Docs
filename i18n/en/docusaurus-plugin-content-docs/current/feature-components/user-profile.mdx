@@ -1,0 +1,128 @@
+---
+title: user-profile
+---
+
+# air-user-profile
+<!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property    | Attribute    | Description | Type      | Default     |
+| ----------- | ------------ | ----------- | --------- | ----------- |
+| `avatarSrc` | `avatar-src` |             | `string`  | `undefined` |
+| `editable`  | `editable`   |             | `boolean` | `false`     |
+| `userBio`   | `user-bio`   |             | `string`  | `undefined` |
+| `userName`  | `user-name`  |             | `string`  | `undefined` |
+
+
+## Dependencies
+
+### Depends on
+
+- [air-avatar](../basic-components/avatar)
+- [air-text](../basic-components/text)
+- [air-input](../basic-components/input)
+- [air-button](../basic-components/button)
+
+### 1. Basic User Profile
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Zhi"
+    user-bio="前端开发者，热爱技术分享"
+    editable="true"
+  ></air-user-profile>
+
+```
+
+### 2. Read-Only User Profile
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="John Doe"
+    user-bio="Web Developer with a passion for open-source projects."
+  >
+  </air-user-profile>
+
+```
+
+
+### 3. Editable User Profile
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Jane Smith"
+    user-bio="Product Manager, loves tech and coffee."
+    editable
+  >
+  </air-user-profile>
+
+
+```
+
+### 4. User Without Bio
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Anonymous"
+  >
+  </air-user-profile>
+
+
+```
+
+### 5. Custom Slot Content
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Custom User"
+  >
+    <div slot="title" class="custom-title">
+      🔥 Custom Title: Super User
+    </div>
+    <div slot="content" class="custom-content">
+      This is a custom bio for a special user.
+    </div>
+  </air-user-profile>
+
+```
+
+### 6. Minimal Profile
+
+```jsx live
+  <air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Minimal User"
+    user-bio="Just another user with minimal info."
+  >
+  </air-user-profile>
+
+```
+
+### 7. Extended Profile with Stats
+
+```jsx live
+<air-user-profile
+    avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
+    user-name="Stats User"
+    user-bio="UI/UX Designer with an eye for detail."
+  >
+    <div slot="content">
+      <p>Bio: Passionate about design systems.</p>
+      <div>
+        <div>
+          <strong>Followers:</strong> 1200
+        </div>
+        <div>
+          <strong>Following:</strong> 180
+        </div>
+      </div>
+    </div>
+  </air-user-profile>
+```

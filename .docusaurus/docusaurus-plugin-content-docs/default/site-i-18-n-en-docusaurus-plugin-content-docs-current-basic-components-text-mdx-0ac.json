@@ -16,7 +16,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "card",
-    "permalink": "/docs/basic-components/card"
+    "title": "Input",
+    "permalink": "/docs/basic-components/input"
+  },
+  "next": {
+    "title": "user-profile",
+    "permalink": "/docs/feature-components/user-profile"
   }
 }

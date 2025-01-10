@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "basic-components/avatar",
+              "path": "/zh-Hans/docs/basic-components/avatar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "basic-components/button",
               "path": "/zh-Hans/docs/basic-components/button",
               "sidebar": "tutorialSidebar"
@@ -26,8 +31,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "basic-components/icon",
+              "path": "/zh-Hans/docs/basic-components/icon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-components/input",
+              "path": "/zh-Hans/docs/basic-components/input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "basic-components/text",
               "path": "/zh-Hans/docs/basic-components/text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "feature-components/user-profile",
+              "path": "/zh-Hans/docs/feature-components/user-profile",
               "sidebar": "tutorialSidebar"
             },
             {

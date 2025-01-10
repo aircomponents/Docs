@@ -1,0 +1,76 @@
+---
+title: Icon
+---
+
+# air-icon
+
+`air-icon` 是一个通用的图标组件，支持集成多种图标库（如 Material Icons、Font Awesome、Boxicons、Iconfont、IconPark 等），让图标的使用更加简单统一。
+
+---
+
+## 属性说明
+
+| 属性名     | 类型     | 描述                                                                                           | 默认值    |
+| ---------- | -------- | ---------------------------------------------------------------------------------------------- | --------- |
+| `icon-set` | `string` | 指定使用的图标库前缀，例如 `material-icons`、`fas`、`bx`、`iconfont`、`iconpark` 等。 | 无         |
+| `name`     | `string` | 图标名称，与对应图标库的图标名称一致。                                                           | 无         |
+| `size`     | `string` | 图标尺寸，支持任意有效的 CSS 尺寸值（如 `2rem`、`24px`）。                                       | `'1rem'`  |
+| `color`    | `string` | 图标颜色，支持任意有效的 CSS 颜色值（如 `red`、`#333`）。                                        | `inherit` |
+
+---
+
+## 示例
+
+### 1. Material Icons 示例
+
+```jsx live
+<div>
+  <h3>Material Icons</h3>
+  <air-icon icon-set="material-icons" name="favorite" size="3rem" color="red"></air-icon>
+  <air-icon icon-set="material-icons" name="home" size="3rem" color="blue"></air-icon>
+</div>
+```
+
+### 2. Font Awesome 示例
+
+```jsx live
+<div>
+  <h3>Font Awesome</h3>
+  <air-icon icon-set="fas" name="heart" size="3rem" color="green"></air-icon>
+  <air-icon icon-set="fas" name="home" size="3rem" color="purple"></air-icon>
+</div>
+
+```
+
+### 3. Boxicons 示例
+
+```jsx live
+<div>
+  <h3>Boxicons</h3>
+  <air-icon icon-set="bx" name="bell" size="3rem" color="orange"></air-icon>
+  <air-icon icon-set="bxs" name="star" size="3rem" color="purple"></air-icon>
+</div>
+
+```
+
+### 4. Iconfont 示例
+
+```jsx live
+<div>
+  <h3>Iconfont (阿里巴巴)</h3>
+  <air-icon icon-set="iconfont" name="home" size="3rem" color="pink"></air-icon>
+  <air-icon icon-set="iconfont" name="bell" size="3rem" color="brown"></air-icon>
+</div>
+
+```
+
+### 5. IconPark 示例
+
+```jsx live
+<div>
+  <h3>IconPark (腾讯)</h3>
+  <air-icon icon-set="iconpark" name="home" size="3rem" color="blue"></air-icon>
+  <air-icon icon-set="iconpark" name="heart" size="3rem" color="orange"></air-icon>
+</div>
+
+```
