@@ -79,6 +79,34 @@ export default {
           "zh"
         ]
       }
+    ],
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        "debug": true,
+        "offlineModeActivationStrategies": [
+          "appInstalled",
+          "standalone",
+          "queryString"
+        ],
+        "pwaHead": [
+          {
+            "tagName": "link",
+            "rel": "icon",
+            "href": "./static/img/favicon.ico"
+          },
+          {
+            "tagName": "link",
+            "rel": "manifest",
+            "href": "./static/manifest.json"
+          },
+          {
+            "tagName": "meta",
+            "name": "theme-color",
+            "content": "rgb(0, 0, 0)"
+          }
+        ]
+      }
     ]
   ],
   "themes": [

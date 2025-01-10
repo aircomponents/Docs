@@ -16,9 +16,11 @@
   "dependencies": {
     "@aircomponents/ui": "^0.0.9",
     "@algolia/client-search": "^5.18.0",
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/plugin-pwa": "^3.7.0",
     "@docusaurus/plugin-sitemap": "^3.7.0",
-    "@docusaurus/preset-classic": "3.6.3",
-    "@docusaurus/theme-live-codeblock": "3.6.3",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@docusaurus/theme-live-codeblock": "^3.7.0",
     "@easyops-cn/docusaurus-search-local": "^0.46.1",
     "@mdx-js/react": "^3.0.0",
     "@types/react": "^19.0.2",
@@ -34,8 +36,8 @@
     "webpack": "^5.97.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.6.3",
-    "@docusaurus/types": "3.6.3"
+    "@docusaurus/module-type-aliases": "^3.7.0",
+    "@docusaurus/types": "^3.7.0"
   },
   "browserslist": {
     "production": [
