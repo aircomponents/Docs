@@ -1,0 +1,24 @@
+{
+  "name": "AirComponents",
+  "short_name": "AirComp",
+  "description": "A modular and lightweight component library for modern web applications.",
+  "icons": [
+    {
+      "src": "/static/img/air-components-logo.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/air-components-logo.svg",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/src/pages/index.js",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0078d4",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US"
+}
