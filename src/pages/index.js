@@ -20,18 +20,6 @@ function HomepageHeader() {
         position: 'relative',
       }}
     >
-      {/* 遮罩层 */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.2)', // 半透明黑色遮罩
-          zIndex: 1,
-        }}
-      />
       {/* 内容 */}
       <div
         className="container"

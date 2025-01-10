@@ -121,3 +121,9 @@
     transform: translateY(-5px);
   }
 }
+
+@media (max-width: 768px) {
+  .heroFullScreen {
+    background-size: contain; /* 小屏幕时调整为包含模式 */
+  }
+}
