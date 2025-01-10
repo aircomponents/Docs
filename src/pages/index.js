@@ -3,27 +3,24 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-
-import Translate, { translate } from '@docusaurus/Translate';
-import airComponentsImage from '../../static/img/aircomponent-header-board.png';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header
-      className={clsx('hero hero--primary', styles.heroBanner)}
+      className={clsx('hero', styles.heroFullScreen)}
       style={{
-        backgroundImage: `url(${airComponentsImage})`,
+        backgroundImage: `url('/img/aircomponent-header-board-full.png')`, // 替换成你自己的背景图片
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        position: 'relative', // 为添加遮罩层准备
+        backgroundAttachment: 'fixed', // 视差效果
+        height: '100vh', // 占据整个视口
+        position: 'relative',
       }}
     >
-
-      {/* 添加遮罩层 */}
+      {/* 遮罩层 */}
       <div
         style={{
           position: 'absolute',
@@ -35,12 +32,39 @@ function HomepageHeader() {
           zIndex: 1,
         }}
       />
-
-      <div className="container" style={{ position: 'relative', zIndex: 2 }}>
-        <Heading as="h1" className="hero__title" style={{ color: 'white', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.8)' }}>
+      {/* 内容 */}
+      <div
+        className="container"
+        style={{
+          position: 'relative',
+          zIndex: 2,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '100%', // 垂直居中
+        }}
+      >
+        <Heading
+          as="h1"
+          className="hero__title"
+          style={{
+            color: 'white',
+            textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8)',
+            fontSize: '3rem',
+            textAlign: 'center',
+          }}
+        >
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle" style={{ color: 'white', textShadow: '1px 1px 3px rgba(0, 0, 0, 0.8)' }}>
+        <p
+          className="hero__subtitle"
+          style={{
+            color: 'white',
+            textShadow: '1px 1px 4px rgba(0, 0, 0, 0.8)',
+            fontSize: '1.25rem',
+          }}
+        >
           {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
@@ -55,7 +79,7 @@ function HomepageHeader() {
                 fontWeight: 'bold',
               }}
             >
-              <Translate>Star Now</Translate>
+              Start Now
             </Link>
           </air-button>
         </div>

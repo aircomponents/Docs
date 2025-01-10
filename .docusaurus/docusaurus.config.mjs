@@ -98,7 +98,7 @@ export default {
           {
             "tagName": "link",
             "rel": "manifest",
-            "href": "./static/manifest.json"
+            "href": "/manifest.json"
           },
           {
             "tagName": "meta",
