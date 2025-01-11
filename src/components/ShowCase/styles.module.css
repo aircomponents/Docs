@@ -1,0 +1,53 @@
+.showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto; /* 上下间距 + 水平居中 */
+  padding: 1.5rem;
+  max-width: 1000px; /* 设置内容最大宽度 */
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%; /* 容器宽度占视口的 90%，保证两边留空 */
+}
+
+.textContainer {
+  flex: 0 0 45%; /* 文本占 50% 的宽度 */
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.profileContainer {
+  flex: 0 0 45%; /* 用户展示部分占 25% */
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    flex-direction: column; /* 小屏幕垂直排列 */
+    width: 100%; /* 容器宽度占满屏幕 */
+    text-align: center;
+  }
+
+  .textContainer {
+    flex: 0 0 auto; /* 文本自适应宽度 */
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .profileContainer {
+    flex: 0 0 auto;
+  }
+}
