@@ -8,9 +8,9 @@ export default function Showcase() {
       <div className={styles.textContainer}>
         <air-text
           type="fluid-heading"
-          color="primary"
           inline
           classname={styles.description}
+          style={{ color: "white" }}
         >
           Seamlessly integrating modern, reusable UI components for
         </air-text>

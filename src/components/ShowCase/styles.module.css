@@ -5,7 +5,7 @@
   margin: 3rem auto; /* 上下间距 + 水平居中 */
   padding: 1.5rem;
   max-width: 1000px; /* 设置内容最大宽度 */
-  background-color: #f9f9f9;
+  background-color: black;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 90%; /* 容器宽度占视口的 90%，保证两边留空 */
@@ -27,11 +27,6 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.6;
-}
-
-.profileContainer {
-  flex: 0 0 45%; /* 用户展示部分占 25% */
-  display: flex;
 }
 
 @media (max-width: 768px) {
