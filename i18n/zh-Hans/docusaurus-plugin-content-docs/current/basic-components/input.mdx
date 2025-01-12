@@ -33,26 +33,20 @@ title: Input
 ### Used by
  - [air-user-profile](../feature-components/user-profile)
 
-### Graph
-```mermaid
-graph TD;
-  air-user-profile --> air-input
-  style air-input fill:#f9f,stroke:#333,stroke-width:4px
-```
 
 ### 1. 普通文本输入框
 
-```jsx live
+<air-previewer>
     <air-input
       label="用户名"
       name="username"
       placeholder="请输入用户名"
     ></air-input>
-```
+</air-previewer>
 
 ### 2. 密码输入框
 
-```jsx live
+<air-previewer>
     <air-input
       label="密码"
       name="password"
@@ -62,11 +56,11 @@ graph TD;
       errorMessage="密码格式不正确"
     ></air-input>
 
-```
+</air-previewer>
 
 ### 3. 邮箱输入框
 
-```jsx live
+<air-previewer>
     <air-input
       label="邮箱"
       name="email"
@@ -76,21 +70,21 @@ graph TD;
       error="{false}"
     ></air-input>
 
-```
+</air-previewer>
 
 ### 4. 电话输入框
 
-```jsx live
+<air-previewer>
     <air-input label="电话" name="phone" type="tel" placeholder="请输入电话">
       <span slot="prefix" class="icon-phone">📞</span>
       <span slot="suffix" class="icon-clear">❌</span>
     </air-input>
 
-```
+</air-previewer>
 
 ### 5. 带有前后缀图标的输入框
 
-```jsx live
+<air-previewer>
     <air-input
       label="网站地址"
       name="website"
@@ -101,11 +95,11 @@ graph TD;
       errorMessage="请输入有效的 URL"
     ></air-input>
 
-```
+</air-previewer>
 
 ### 6. 带有正则验证的输入框
 
-```jsx live
+<air-previewer>
     <air-input
       label="禁用输入框"
       name="disabled"
@@ -113,4 +107,4 @@ graph TD;
       disabled="{true}"
     ></air-input>
 
-```
+</air-previewer>

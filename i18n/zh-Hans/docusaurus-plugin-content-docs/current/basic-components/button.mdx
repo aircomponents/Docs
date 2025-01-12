@@ -4,41 +4,46 @@ title: button
 
 <!-- truncate -->
 
-### 属性
+### Properties
 
-| Property     | Attribute     | Description | Type                                                                                | Default     |
-| ------------ | ------------- | ----------- | ----------------------------------------------------------------------------------- | ----------- |
-| `color`      | `color`       |             | `"danger" \| "default" \| "ghost" \| "info" \| "primary" \| "success" \| "warning"` | `"default"` |
-| `disabled`   | `disabled`    |             | `boolean`                                                                           | `false`     |
-| `icon`       | `icon`        |             | `string`                                                                            | `""`        |
-| `loading`    | `loading`     |             | `boolean`                                                                           | `false`     |
-| `selected`   | `selected`    |             | `boolean`                                                                           | `false`     |
-| `size`       | `size`        |             | `"large" \| "medium" \| "small"`                                                    | `"medium"`  |
-| `suffixIcon` | `suffix-icon` |             | `string`                                                                            | `""`        |
-| `variant`    | `variant`     |             | `"default" \| "neo" \| "outline" \| "solid" \| "text"`                              | `"default"` |
+| Property     | Attribute     | Description                            | Type                                                              | Default    |
+| ------------ | ------------- | -------------------------------------- | ----------------------------------------------------------------- | ---------- |
+| `autoWidth`  | `auto-width`  | 启用自动宽度调整                       | `boolean`                                                         | `false`    |
+| `circle`     | `circle`      | 显示圆形按钮                           | `boolean`                                                         | `false`    |
+| `content`    | `content`     | 按钮文本内容                           | `string`                                                          | `''`       |
+| `disabled`   | `disabled`    | 禁用按钮                               | `boolean`                                                         | `false`    |
+| `ghost`      | `ghost`       | 以幽灵风格显示按钮                     | `boolean`                                                         | `false`    |
+| `icon`       | `icon`        | 在按钮中显示图标                       | `string`                                                          | `''`       |
+| `loading`    | `loading`     | 显示加载状态图标                       | `boolean`                                                         | `false`    |
+| `plain`      | `plain`       | 应用朴素风格                           | `boolean`                                                         | `false`    |
+| `round`      | `round`       | 显示圆角按钮                           | `boolean`                                                         | `false`    |
+| `size`       | `size`        | 按钮大小                               | `"big" \| "medium" \| "small"`                                    | `'medium'` |
+| `suffixIcon` | `suffix-icon` | 显示按钮后缀图标                       | `string`                                                          | `''`       |
+| `type`       | `type`        | 按钮类型                               | `"" \| "danger" \| "info" \| "primary" \| "success" \| "warning"` | `''`       |
 
+### Dependencies
 
-### 事件
+### Used by
 
-| Event         | Description | Type                                                     |
-| ------------- | ----------- | -------------------------------------------------------- |
-| `buttonClick` |             | `CustomEvent<{ event: MouseEvent; selected: boolean; }>` |
+#### air-card
+
+### Example Usage
 
 ### 1. 基本按钮（默认状态）
 
 展示一个最基本的按钮，依据 `size`, `variant` 和 `color` 来调整外观。
 
-```jsx live
+<air-previewer>
 <air-button size="medium" variant="default" color="default">
   Primary Button
 </air-button>
-```
+</air-previewer>
 
 ### 2. 不同颜色的按钮
 
 展示不同颜色的按钮，涵盖 `primary`, `success`, `info`, `warning`, `danger`, `ghost`。
 
-```jsx live
+<air-previewer>
 <>
 <air-button color="primary">主按钮</air-button>
 <air-button color="success">成功按钮</air-button>
@@ -47,36 +52,36 @@ title: button
 <air-button color="danger">危险按钮</air-button>
 <air-button color="ghost">幽灵按钮</air-button>
 </>
-```
+</air-previewer>
 
 ### 3. 不同大小的按钮展示 
 `size` 属性的不同效果。你可以使用 `small`, `medium`, `large` 来展示不同的按钮大小。
 
-```jsx live
+<air-previewer>
 <>
 <air-button size="small">small Button</air-button>
 <air-button size="medium">medium Button</air-button>
 <air-button size="large">Large Button</air-button>
 </>
-```
+</air-previewer>
 
 ### 4. 带图标的按钮
 
 展示带有图标的按钮，使用 `icon`,`suffix-icon`, 属性为按钮添加前后缀图标。
 
-```jsx live
+<air-previewer>
 <>
 <air-button icon="⭐">图标按钮</air-button>
 <air-button suffix-icon="✓">后缀图标按钮</air-button>
 <air-button icon="🔄" suffix-icon="✓">双图标按钮</air-button>
 </>
-```
+</air-previewer>
 
 ### 5. 不同样式按钮
 
 展示按钮处于按钮样式状态时的表现，使用 `solid`,`outline`,`text`,`neo`,`default` 属性。
 
-```jsx live
+<air-previewer>
 <>
 <air-button variant="solid">实心按钮</air-button>
 <air-button variant="outline">描边按钮</air-button>
@@ -84,13 +89,13 @@ title: button
 <air-button variant="neo">霓虹按钮</air-button>
 <air-button variant="default">默认按钮</air-button>
 </>
-```
+</air-previewer>
 
 ### 6. 加载中、禁用、选中状态展示
 
 展示加载中、禁用、选中状态下的按钮，使用 `loading`,`disabled`,`icon`,`selected`等属性。
 
-```jsx live
+<air-previewer>
 <>
 <air-button loading>加载中</air-button>
 <air-button disabled>禁用按钮</air-button>
@@ -98,5 +103,5 @@ title: button
 <air-button selected>选中按钮</air-button>
 <air-button selected icon="✔️">选中图标按钮</air-button>
 </>
-```
+</air-previewer>
 ---

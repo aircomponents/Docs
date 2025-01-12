@@ -49,16 +49,18 @@ The `air-text` component is used to render different types of text, such as head
 - **`configAria`**: configures ARIA attributes, allowing you to attach ARIA attributes to text elements
 ## Usage examples
 ### 1. Rendering different types of text
-```jex live
+<air-previewer>
 <>
 <air-text type='heading' level='1'>Main Heading</air-text>
 <air-text type='body'>This is a simple paragraph.</air-text>
 <air-text type='helper-text'>Helper text to guide the user.</air-text>
 <air-text type='code'>const x = 10;</air-text>
 </>
-```
+</air-previewer>
+
 ### 2. Rendering headings of different levels
-```jex live
+
+<air-previewer>
 <>
 <air-text type='heading' headingSize='1'>Heading 1</air-text>
 <air-text type='heading' headingSize='2'>Heading 2</air-text>
@@ -67,25 +69,25 @@ The `air-text` component is used to render different types of text, such as head
 <air-text type='heading' headingSize='5'>Heading 5</air-text>
 <air-text type='heading' headingSize='6'>Heading 6</air-text>
 </>
-```
+</air-previewer>
 ### 3. Use color styles
-```jex live
+<air-previewer>
 <>
 <air-text type='heading' level='1'>Main Heading</air-text>
 <air-text type='body'>This is a simple paragraph. </air-text>
 <air-text type='helper-text'>Helper text to guide the user. </air-text>
 <air-text type='code'>const x = 10;</air-text>
 </>
-```
+</air-previewer>
 ### 4. Inline text
-```jex live
+<air-previewer>
 <air-text type='body' inline={true}>This text is inline. </air-text>
-```
+</air-previewer>
 ### 5. Enable expressive styles
-```jex live
+<air-previewer>
 <air-text type='body' expressive={true}>This is expressive text.</air-text>
-```
+</air-previewer>
 ### 6. ARIA attributes
-```jex live
+<air-previewer>
 <air-text type='body' configAria={{'aria-label': 'Descriptive text'}}>This text has ARIA attributes.</air-text>
-```
+</air-previewer>

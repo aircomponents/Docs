@@ -12,11 +12,16 @@
   --ifm-color-primary-lighter: #666666; /* Medium gray */
   --ifm-color-primary-lightest: #999999; /* Light gray */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05); /* Subtle highlight */
+  --docusaurus-highlighted-code-line-bg: rgba(
+    0,
+    0,
+    0,
+    0.05
+  ); /* Subtle highlight */
 }
 
 /* Dark mode palette (Hacker Green style) */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #00ff00; /* Bright hacker green */
   --ifm-color-primary-dark: #00cc00; /* Slightly darker green */
   --ifm-color-primary-darker: #009900; /* Even darker green */
@@ -24,5 +29,13 @@
   --ifm-color-primary-light: #66ff66; /* Lighter green */
   --ifm-color-primary-lighter: #99ff99; /* Pale green */
   --ifm-color-primary-lightest: #b3ffb3; /* Very light green */
-  --docusaurus-highlighted-code-line-bg: rgba(0, 255, 0, 0.3); /* Green highlight for dark mode */
+  --docusaurus-highlighted-code-line-bg: rgba(
+    0,
+    255,
+    0,
+    0.3
+  ); /* Green highlight for dark mode */
 }
+
+/* src/css/custom.css */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");

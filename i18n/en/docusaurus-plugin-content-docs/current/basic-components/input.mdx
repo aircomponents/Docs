@@ -29,23 +29,18 @@ title: Input
 ## Dependencies
 ### Used by
  - [air-user-profile](../feature-components/user-profile)
-### Graph
-```mermaid
-graph TD;
-  air-user-profile --> air-input
-  style air-input fill:#f9f,stroke:#333,stroke-width:4px
-```
+
 ### 1. Regular text input
-```jsx live
+<air-previewer>
     <air-input
       label="username"
       name="username"
       placeholder="Please enter your username"
     ></air-input>
-```
-```
+</air-previewer>
+
 ### 2. Password input
-```jsx live
+<air-previewer>
     <air-input
       label='Password'
       name='password'
@@ -54,9 +49,10 @@ graph TD;
       error='{true}'
       errorMessage='The password format is incorrect'
     ></air-input>
-```
+</air-previewer>
+
 ### 3. Email input box
-```jsx live
+<air-previewer>
         <air-input
       label="email"
       name="email"
@@ -65,16 +61,18 @@ graph TD;
       required="{true}"
       error="{false}"
     ></air-input>
-```
+</air-previewer>
+
 ### 4. Phone input field
-```jsx live
+<air-previewer>
         <air-input label="电话" name="phone" type="tel" placeholder="请输入电话">
       <span slot="prefix" class="icon-phone">📞</span>
       <span slot="suffix" class="icon-clear">❌</span>
     </air-input>
-```
+</air-previewer>
+
 ### 5. Input field with prefix and suffix icons
-```jsx live
+<air-previewer>
     <air-input
       label='Website address'
       name='website'
@@ -84,14 +82,14 @@ graph TD;
       error='{true}'
       errorMessage='Please enter a valid URL'
     ></air-input>
-```
+</air-previewer>
+
 ### 6. Input field with regular expression validation
-```jsx live
+<air-previewer>
         <air-input
       label="Disable input field"
       name="disabled"
       placeholder="Not editable"
       disabled="{true}"
     ></air-input>
-
-```
+</air-previewer>
