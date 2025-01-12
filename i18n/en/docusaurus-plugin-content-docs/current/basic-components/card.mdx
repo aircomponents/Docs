@@ -24,7 +24,7 @@ title: card
 
 ### 1. Customise the title, content and footer slot of the card This example shows how to customise the title, content and footer button of the `air-card`.
 
-```jsx live
+<air-previewer>
 <>
 <air-card imageUrl='https://via.placeholder.com/150' isHighlighted='true'>
   <span slot='title'>Custom Card Title</span>
@@ -45,26 +45,26 @@ title: card
   </div>
 </air-card>
 </>
-```
+</air-previewer>
 
 ### 2. Card with default slot content 
 
 This example shows an air-card without a custom bottom, using only the default slot content
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="false">
   <span slot="title">Another Card Title</span>
   <span slot="content">Here is another custom content for a different card.</span>
 </air-card>
 </>
-```
+</air-previewer>
 
 ### 3. Card with custom title, content and bottom button
 
 Shows a card with a custom title, content and bottom button.
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted='true'>
 <span slot='title'>
@@ -78,12 +78,12 @@ Shows a card with a custom title, content and bottom button.
 </div>
 </air-card>
 </>
-```
+</air-previewer>
 
 ### 4. Card with image
 This card shows a card with an image and custom content.
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted='false' imageUrl='https://via.placeholder.com/150'>
 <span slot='title'>
@@ -97,12 +97,12 @@ This card shows a card with an image and custom content.
 </div>
 </air-card>
 </>
-```
+</air-previewer>
 
 ### 5. Large card
 This shows a card with the size='large' and a responsive title.
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted='false' size='large'>
   <span slot='content'>
@@ -110,12 +110,12 @@ This shows a card with the size='large' and a responsive title.
   </span>
 </air-card>
 </>
-```
+</air-previewer>
 
 ### 5. Small card
 This card displays a small card with the legal text of the terms and conditions.
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted='false' size='small'>
   <span slot='title'>
@@ -129,5 +129,5 @@ This card displays a small card with the legal text of the terms and conditions.
 </div>
 </air-card>
 </>
-```
+</air-previewer>
 ---

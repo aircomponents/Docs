@@ -26,13 +26,16 @@ title: card
 
 该示例展示如何自定义 `air-card` 的标题、内容和底部按钮。
 
-```jsx live
+<air-previewer>
 <>
 <air-card imageUrl="https://via.placeholder.com/150" isHighlighted="true">
+  <!-- 自定义标题 -->
   <span slot="title">Custom Card Title</span>
   
+  <!-- 自定义内容 -->
   <span slot="content">This is custom content for the card. You can replace it with any custom HTML.</span>
   
+  <!-- 自定义底部 -->
   <div slot="footer">
     <air-button
       id="myButton"
@@ -47,25 +50,23 @@ title: card
   </div>
 </air-card>
 </>
-```
-
+</air-previewer>
 ### 2. 使用默认插槽内容的卡片 
 这个例子展示了一个没有自定义底部的 air-card，仅使用默认插槽内容
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="false">
   <span slot="title">Another Card Title</span>
   <span slot="content">Here is another custom content for a different card.</span>
 </air-card>
 </>
-```
-
+</air-previewer>
 ### 3. 带自定义标题、内容和底部按钮的卡片
 
 展示了一个带有自定义标题、内容和底部按钮的卡片。
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="true">
   <span slot="title">
@@ -79,13 +80,12 @@ title: card
   </div>
 </air-card>
 </>
-```
-
+</air-previewer>
 ### 4. 带有图片的卡片
 
 此卡片展示了一个带有图片和自定义内容的卡片。
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="false" imageUrl="https://via.placeholder.com/150">
   <span slot="title">
@@ -99,13 +99,12 @@ title: card
   </div>
 </air-card>
 </>
-```
-
+</air-previewer>
 ### 5. 大尺寸卡片
 
 展示了一个 size="large" 的卡片，使用响应式标题。
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="false" size="large">
   <span slot="content">
@@ -113,14 +112,13 @@ title: card
   </span>
 </air-card>
 </>
-```
-
+</air-previewer>
 ### 5.小尺寸卡片
 
 此卡片展示了一个小尺寸卡片，带有 terms and conditions 的法律文本。
 
 
-```jsx live
+<air-previewer>
 <>
 <air-card isHighlighted="false" size="small">
   <span slot="title">
@@ -134,6 +132,5 @@ title: card
   </div>
 </air-card>
 </>
-```
-
+</air-previewer>
 ---

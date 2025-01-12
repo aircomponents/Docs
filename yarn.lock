@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aircomponents/ui@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@aircomponents/ui/-/ui-0.0.9.tgz#6302f9b3035a13ca6ce1ca279c57172489f81d98"
-  integrity sha512-wU54QCqnnM+rTFAO5PdSihueSw0dp5YbNF4mqwLQtU7AbjtuV0ddborTIPa4zw9nWxUECiP5QfQxiid64wm9Jw==
+"@aircomponents/ui@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@aircomponents/ui/-/ui-0.0.10.tgz#f0e202a8346d3ed917d8fbbcd57666e36a842963"
+  integrity sha512-a2nqlZtSbQ1Zn/pEVXyPYuvCR0e3ixXyDDhGG3JwyFKQjxt7KIDWedxS9FQkr/SkekzUX9aQ6OYYZSGKbW2rKQ==
   dependencies:
     classnames "^2.5.1"
 

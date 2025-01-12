@@ -59,18 +59,18 @@ title: text
 
 ### 1. 渲染不同类型的文本
 
-```jex live
+<air-previewer>
 <>
 <air-text type="heading" level="1">Main Heading</air-text>
 <air-text type="body">This is a simple paragraph.</air-text>
 <air-text type="helper-text">Helper text to guide the user.</air-text>
 <air-text type="code">const x = 10;</air-text>
 </>
-```
+</air-previewer>
 
 ### 2. 渲染不同级别的标题
 
-```jex live
+<air-previewer>
 <>
 <air-text type="heading" headingSize="1">Heading 1</air-text>
 <air-text type="heading" headingSize="2">Heading 2</air-text>
@@ -79,34 +79,34 @@ title: text
 <air-text type="heading" headingSize="5">Heading 5</air-text>
 <air-text type="heading" headingSize="6">Heading 6</air-text>
 </>
-```
+</air-previewer>
 
 ### 3. 使用颜色样式
 
-```jex live
+<air-previewer>
 <>
 <air-text type="heading" level="1">Main Heading</air-text>
 <air-text type="body">This is a simple paragraph.</air-text>
 <air-text type="helper-text">Helper text to guide the user.</air-text>
 <air-text type="code">const x = 10;</air-text>
 </>
-```
+</air-previewer>
 
 ### 4. 行内文本
 
-```jex live
+<air-previewer>
 <air-text type="body" inline={true}>This text is inline.</air-text>
-```
+</air-previewer>
 
 ### 5. 启用表现力样式
 
-```jex live
+<air-previewer>
 <air-text type="body" expressive={true}>This is expressive text.</air-text>
-```
+</air-previewer>
 
 ### 6. ARIA 属性
 
-```jex live
+<air-previewer>
 <air-text type="body" configAria={{"aria-label": "Descriptive text"}}>This text has ARIA attributes.</air-text>
-```
+</air-previewer>
 
