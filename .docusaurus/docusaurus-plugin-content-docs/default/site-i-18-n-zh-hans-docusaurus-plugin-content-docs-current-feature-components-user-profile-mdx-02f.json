@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "text",
-    "permalink": "/zh-Hans/docs/basic-components/text"
+    "title": "previewer",
+    "permalink": "/zh-Hans/docs/feature-components/previewer"
   }
 }
