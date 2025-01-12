@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'f38'),
+    component: ComponentCreator('/zh-Hans/docs', 'd49'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', '845'),
+        component: ComponentCreator('/zh-Hans/docs', '09c'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', 'a0e'),
+            component: ComponentCreator('/zh-Hans/docs', 'a97'),
             routes: [
               {
                 path: '/zh-Hans/docs/basic-components/avatar',
@@ -94,6 +94,12 @@ export default [
               {
                 path: '/zh-Hans/docs/category/基础组件',
                 component: ComponentCreator('/zh-Hans/docs/category/基础组件', '3d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/feature-components/previewer',
+                component: ComponentCreator('/zh-Hans/docs/feature-components/previewer', '5f2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

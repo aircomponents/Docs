@@ -46,6 +46,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "feature-components/previewer",
+              "path": "/zh-Hans/docs/feature-components/previewer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "feature-components/user-profile",
               "path": "/zh-Hans/docs/feature-components/user-profile",
               "sidebar": "tutorialSidebar"
