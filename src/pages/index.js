@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import headerBoard from '../../static/img/aircomponent-header-board-full.png'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -13,7 +14,7 @@ function HomepageHeader() {
     <header
       className={clsx('hero', styles.heroFullScreen)}
       style={{
-        backgroundImage: `url('/img/aircomponent-header-board-full.png')`, // 替换成你自己的背景图片
+        backgroundImage: `url(${headerBoard})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed', // 视差效果
