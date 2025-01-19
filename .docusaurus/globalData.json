@@ -56,6 +56,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "guide/color",
+              "path": "/zh-Hans/docs/guide/color",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"

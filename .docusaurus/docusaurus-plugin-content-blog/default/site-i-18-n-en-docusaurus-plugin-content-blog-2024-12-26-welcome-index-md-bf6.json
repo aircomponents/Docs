@@ -1,6 +1,6 @@
 {
   "permalink": "/blog/trying",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024-12-26-welcome/index.md",
+  "editUrl": "https://github.com/aircomponents/UI/blog/2024-12-26-welcome/index.md",
   "source": "@site/i18n/en/docusaurus-plugin-content-blog/2024-12-26-welcome/index.md",
   "title": "A first attempt at a component library",
   "description": "Web Components is a collection of different technologies that allow us to build encapsulated, reusable UI components. Web Components includes technologies such as Custom Elements, Templates, and Shadow DOM, and can be used in any modern browser independently of a framework. This allows Web Components to maintain consistent behavior and styles across different JavaScript frameworks or libraries, and is ideal for building cross-platform, modular UI components.",

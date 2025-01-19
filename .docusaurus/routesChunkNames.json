@@ -66,17 +66,17 @@
       "plugin": "138e0e15"
     }
   },
-  "/zh-Hans/docs-d49": {
+  "/zh-Hans/docs-b36": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/zh-Hans/docs-09c": {
+  "/zh-Hans/docs-a85": {
     "__comp": "a7bd4aaa",
     "__props": "eceef310"
   },
-  "/zh-Hans/docs-a97": {
+  "/zh-Hans/docs-3e4": {
     "__comp": "a94703ab"
   },
   "/zh-Hans/docs/basic-components/avatar-084": {
@@ -118,6 +118,10 @@
   "/zh-Hans/docs/feature-components/user-profile-095": {
     "__comp": "17896441",
     "content": "02f3af24"
+  },
+  "/zh-Hans/docs/guide/color-30f": {
+    "__comp": "17896441",
+    "content": "b88de2aa"
   },
   "/zh-Hans/docs/intro-16f": {
     "__comp": "17896441",

@@ -38,7 +38,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/aircomponents/UI"
         },
         "blog": {
           "showReadingTime": true,
@@ -49,7 +49,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/aircomponents/UI",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -113,6 +113,13 @@ export default {
     "@docusaurus/theme-live-codeblock"
   ],
   "themeConfig": {
+    "docs": {
+      "sidebar": {
+        "hideable": true,
+        "autoCollapseCategories": true
+      },
+      "versionPersistence": "localStorage"
+    },
     "image": "img/air-components-board.png",
     "navbar": {
       "title": "空气组件",
@@ -125,7 +132,7 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "文档"
+          "label": "docs"
         },
         {
           "to": "/blog",
@@ -391,13 +398,6 @@ export default {
       "defaultMode": "light",
       "disableSwitch": false,
       "respectPrefersColorScheme": false
-    },
-    "docs": {
-      "versionPersistence": "localStorage",
-      "sidebar": {
-        "hideable": false,
-        "autoCollapseCategories": false
-      }
     },
     "blog": {
       "sidebar": {
