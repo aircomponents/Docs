@@ -1,0 +1,22 @@
+{
+  "id": "guide/color",
+  "title": "color",
+  "description": "色阶展示",
+  "source": "@site/docs/guide/color.mdx",
+  "sourceDirName": "guide",
+  "slug": "/guide/color",
+  "permalink": "/zh-Hans/docs/guide/color",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aircomponents/UI/docs/guide/color.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "color"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "user-profile",
+    "permalink": "/zh-Hans/docs/feature-components/user-profile"
+  }
+}

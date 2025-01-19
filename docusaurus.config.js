@@ -133,6 +133,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       image: 'img/air-components-board.png',
       navbar: {
         title: 'AirComponents',
@@ -145,7 +151,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '文档',
+            label: 'docs',
           },
           { to: '/blog', label: '博客', position: 'left' },
           {

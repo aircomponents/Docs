@@ -39,15 +39,15 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'd49'),
+    component: ComponentCreator('/zh-Hans/docs', 'b36'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', '09c'),
+        component: ComponentCreator('/zh-Hans/docs', 'a85'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', 'a97'),
+            component: ComponentCreator('/zh-Hans/docs', '3e4'),
             routes: [
               {
                 path: '/zh-Hans/docs/basic-components/avatar',
@@ -106,6 +106,12 @@ export default [
               {
                 path: '/zh-Hans/docs/feature-components/user-profile',
                 component: ComponentCreator('/zh-Hans/docs/feature-components/user-profile', '095'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/guide/color',
+                component: ComponentCreator('/zh-Hans/docs/guide/color', '30f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
