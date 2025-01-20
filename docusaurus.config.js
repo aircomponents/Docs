@@ -51,6 +51,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: 'docs',
+          path: 'docs',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -91,6 +93,15 @@ const config = {
     ],
   ],
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'design',
+        path: 'design',
+        routeBasePath: 'design',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
     [
       "@easyops-cn/docusaurus-search-local",
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
@@ -151,9 +162,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'docs',
+            label: 'component',
           },
-          { to: '/blog', label: '博客', position: 'left' },
+          {
+            to: '/design/Intro',    // ./docs/Intro.md
+            label: 'design',
+            position: 'left',
+            activeBaseRegex: `/design/`,
+          },
+          { to: '/blog', label: 'blog', position: 'left' },
           {
             href: 'https://github.com/SisyphusZheng/aircomponents',
             label: 'GitHub',

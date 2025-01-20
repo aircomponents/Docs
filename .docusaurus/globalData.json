@@ -56,11 +56,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "guide/color",
-              "path": "/zh-Hans/docs/guide/color",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/zh-Hans/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -77,6 +72,40 @@
               "link": {
                 "path": "/zh-Hans/docs/intro",
                 "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "design": {
+      "path": "/zh-Hans/design",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/zh-Hans/design",
+          "mainDocId": "Intro",
+          "docs": [
+            {
+              "id": "guide/color",
+              "path": "/zh-Hans/design/guide/color",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Intro",
+              "path": "/zh-Hans/design/Intro",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/zh-Hans/design/Intro",
+                "label": "Intro"
               }
             }
           }

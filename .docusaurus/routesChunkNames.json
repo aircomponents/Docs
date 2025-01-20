@@ -66,17 +66,38 @@
       "plugin": "138e0e15"
     }
   },
-  "/zh-Hans/docs-b36": {
+  "/zh-Hans/design-b7d": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "1a5945d3"
+    }
+  },
+  "/zh-Hans/design-2de": {
+    "__comp": "a7bd4aaa",
+    "__props": "5a2cffbc"
+  },
+  "/zh-Hans/design-cd9": {
+    "__comp": "a94703ab"
+  },
+  "/zh-Hans/design/guide/color-606": {
+    "__comp": "17896441",
+    "content": "7c4d00ea"
+  },
+  "/zh-Hans/design/Intro-923": {
+    "__comp": "17896441",
+    "content": "3b49242c"
+  },
+  "/zh-Hans/docs-d49": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/zh-Hans/docs-a85": {
+  "/zh-Hans/docs-09c": {
     "__comp": "a7bd4aaa",
     "__props": "eceef310"
   },
-  "/zh-Hans/docs-3e4": {
+  "/zh-Hans/docs-a97": {
     "__comp": "a94703ab"
   },
   "/zh-Hans/docs/basic-components/avatar-084": {
@@ -118,10 +139,6 @@
   "/zh-Hans/docs/feature-components/user-profile-095": {
     "__comp": "17896441",
     "content": "02f3af24"
-  },
-  "/zh-Hans/docs/guide/color-30f": {
-    "__comp": "17896441",
-    "content": "b88de2aa"
   },
   "/zh-Hans/docs/intro-16f": {
     "__comp": "17896441",
