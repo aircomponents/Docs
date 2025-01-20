@@ -20,15 +20,15 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.component": {
-    "message": "component",
+    "message": "组件",
     "description": "Navbar item with label component"
   },
   "item.label.design": {
-    "message": "design",
+    "message": "设计",
     "description": "Navbar item with label design"
   },
   "item.label.blog": {
-    "message": "blog",
+    "message": "博客",
     "description": "Navbar item with label blog"
   }
 }

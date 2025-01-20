@@ -58,7 +58,7 @@ function HomepageHeader() {
           {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
-          <air-button size="medium" variant="solid" color="ghost" suffix-icon="🚀">
+          <air-button size="medium" state="primary" suffix-icon="🚀">
             <Link
               to="/docs/intro"
               style={{

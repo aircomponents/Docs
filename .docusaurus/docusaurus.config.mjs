@@ -143,17 +143,17 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "component"
+          "label": "组件"
         },
         {
           "to": "/design/Intro",
-          "label": "design",
+          "label": "设计",
           "position": "left",
           "activeBaseRegex": "/design/"
         },
         {
           "to": "/blog",
-          "label": "blog",
+          "label": "博客",
           "position": "left"
         },
         {
