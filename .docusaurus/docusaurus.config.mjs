@@ -37,6 +37,8 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "docs",
+          "path": "docs",
           "sidebarPath": "./sidebars.js",
           "editUrl": "https://github.com/aircomponents/UI"
         },
@@ -70,6 +72,15 @@ export default {
     ]
   ],
   "plugins": [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        "id": "design",
+        "path": "design",
+        "routeBasePath": "design",
+        "sidebarPath": "/home/zos/documents/GitHub/MyFork/Docs/AirCom-Docs/sidebars.js"
+      }
+    ],
     [
       "@easyops-cn/docusaurus-search-local",
       {
@@ -132,11 +143,17 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "docs"
+          "label": "component"
+        },
+        {
+          "to": "/design/Intro",
+          "label": "design",
+          "position": "left",
+          "activeBaseRegex": "/design/"
         },
         {
           "to": "/blog",
-          "label": "博客",
+          "label": "blog",
           "position": "left"
         },
         {

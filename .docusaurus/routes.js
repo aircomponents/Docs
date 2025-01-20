@@ -38,6 +38,36 @@ export default [
     exact: true
   },
   {
+    path: '/zh-Hans/design',
+    component: ComponentCreator('/zh-Hans/design', 'd70'),
+    routes: [
+      {
+        path: '/zh-Hans/design',
+        component: ComponentCreator('/zh-Hans/design', 'a5b'),
+        routes: [
+          {
+            path: '/zh-Hans/design',
+            component: ComponentCreator('/zh-Hans/design', '9cb'),
+            routes: [
+              {
+                path: '/zh-Hans/design/guide/color',
+                component: ComponentCreator('/zh-Hans/design/guide/color', '16f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/design/Intro',
+                component: ComponentCreator('/zh-Hans/design/Intro', '923'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     path: '/zh-Hans/docs',
     component: ComponentCreator('/zh-Hans/docs', 'b36'),
     routes: [
