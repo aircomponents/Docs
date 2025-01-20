@@ -1,7 +1,7 @@
 {
   "id": "Intro",
   "title": "Intro",
-  "description": "",
+  "description": "The AirComponent Design System is built to provide a highly flexible and standardized design framework, leveraging the power of TailwindCSS through a second-level encapsulation. This system focuses on delivering a semantic, accessible, and scalable user interface foundation that prioritizes clarity and consistency.",
   "source": "@site/design/Intro.md",
   "sourceDirName": ".",
   "slug": "/Intro",

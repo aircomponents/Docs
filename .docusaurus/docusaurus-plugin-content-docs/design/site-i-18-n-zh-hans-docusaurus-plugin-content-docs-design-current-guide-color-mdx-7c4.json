@@ -1,0 +1,21 @@
+{
+  "id": "guide/color",
+  "title": "color",
+  "description": "中性展示",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs-design/current/guide/color.mdx",
+  "sourceDirName": "guide",
+  "slug": "/guide/color",
+  "permalink": "/zh-Hans/design/guide/color",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "color"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/zh-Hans/design/Intro"
+  }
+}

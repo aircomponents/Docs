@@ -39,19 +39,19 @@ export default [
   },
   {
     path: '/zh-Hans/design',
-    component: ComponentCreator('/zh-Hans/design', 'd70'),
+    component: ComponentCreator('/zh-Hans/design', 'b7d'),
     routes: [
       {
         path: '/zh-Hans/design',
-        component: ComponentCreator('/zh-Hans/design', 'a5b'),
+        component: ComponentCreator('/zh-Hans/design', '2de'),
         routes: [
           {
             path: '/zh-Hans/design',
-            component: ComponentCreator('/zh-Hans/design', '9cb'),
+            component: ComponentCreator('/zh-Hans/design', 'cd9'),
             routes: [
               {
                 path: '/zh-Hans/design/guide/color',
-                component: ComponentCreator('/zh-Hans/design/guide/color', '16f'),
+                component: ComponentCreator('/zh-Hans/design/guide/color', '606'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -69,15 +69,15 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'b36'),
+    component: ComponentCreator('/zh-Hans/docs', 'd49'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', 'a85'),
+        component: ComponentCreator('/zh-Hans/docs', '09c'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', '3e4'),
+            component: ComponentCreator('/zh-Hans/docs', 'a97'),
             routes: [
               {
                 path: '/zh-Hans/docs/basic-components/avatar',
@@ -136,12 +136,6 @@ export default [
               {
                 path: '/zh-Hans/docs/feature-components/user-profile',
                 component: ComponentCreator('/zh-Hans/docs/feature-components/user-profile', '095'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/zh-Hans/docs/guide/color',
-                component: ComponentCreator('/zh-Hans/docs/guide/color', '30f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
