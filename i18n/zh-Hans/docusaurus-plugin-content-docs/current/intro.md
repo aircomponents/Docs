@@ -1,65 +1,71 @@
 ---
 sidebar_position: 1
 ---
+# AirUI 介绍
 
-# AirComponents 简介
+欢迎来到 **AirUI** —— 一个现代化、轻量级、模块化的 UI 组件库，旨在为 Web 开发提供简洁、优雅的解决方案。通过 AirUI，您可以轻松构建高效、美观的 Web 应用。
 
-欢迎使用 **AirComponents**——一个现代化、轻量级的 Web Components 库，专为简洁和优雅而设计。  
+## 为什么选择 AirUI？
 
-## 为什么选择 AirComponents？
+**AirUI** 集成了 **UI** 和 **Design** 两大模块，专为开发者提供可定制的 Web 组件和一致的设计语言。无论您是开发者还是设计师，AirUI 都能帮助您快速搭建符合现代标准的用户界面。
 
-AirComponents 提供：
-- **可定制**：轻松构建独特的用户界面。
-- **极简主义**：小巧、高效、快速。
-- **现代标准**：基于 Web Components 和纯 CSS，无需第三方依赖。
+### 主要优势
+
+- **模块化设计**：根据需求选择并自定义组件和样式。
+- **无依赖**：完全基于 Web Components 和纯 CSS，避免了对第三方库的依赖。
+- **可定制性强**：轻松调整配色、尺寸、布局等，完全符合项目需求。
+- **现代标准**：遵循最新的 Web 技术，确保跨平台兼容性和可扩展性。
 
 ## 快速开始
 
-按照以下步骤开始使用 AirComponents。
+开始使用 **AirUI** 非常简单，几步操作即可将其集成到您的项目中。
 
 ### 前置条件
 
-在使用 AirComponents 之前，请确保您已安装：
-- [Node.js](https://nodejs.org/en/download/) 18.0 或更高版本。
-- 一个代码编辑器，例如 [VS Code](https://code.visualstudio.com/)。
+- **Node.js** 18.0 或更高版本
+- 推荐使用 **VS Code** 或您偏好的代码编辑器
 
-### 安装 AirComponents
+### 安装 AirUI
 
-通过 npm 将 AirComponents 添加到您的项目中：
+通过 npm 安装 **AirUI**：
 
 ```bash
-npm install air-components
+npm install @airdesign/ui
 ```
 
-### 引入和使用
+### 引入并使用
 
-引入您需要的组件并开始使用：
-
-```javascript
-import 'air-components';
-```
+引入您所需的组件，轻松开始构建 UI：
 
 HTML 示例：
 
 ```html
-
+<air-button label="点击我" state="primary"></air-button>
 ```
 
 ### 启动开发服务器
 
-如果您克隆了 AirComponents 的代码库进行开发，请运行以下命令：
+如果您正在本地开发 AirUI，可以运行以下命令启动本地开发服务器：
 
 ```bash
 npm install
 npm run start
 ```
 
-访问 [http://localhost:3000/](http://localhost:3000/) 查看实时更改。
+### 样式库特点
 
----
+- 统一风格：所有组件遵循统一的设计规范，确保一致的视觉效果。
+- 灵活定制：通过修改变量，您可以自定义主题、颜色、字体等，适应不同的品牌需求。
+- 极简主义：避免过度设计，专注于有效传递信息
 
-## 了解更多
+### 适用场景
 
-查看完整的文档和示例，探索 AirComponents 提供的所有组件。
+AirUI 理想下适用于以下场景：
 
-祝您在 **AirComponents** 的开发旅程中一切顺利！
+- 单页应用（SPA）：无缝集成到任何现代框架或无框架项目中。
+- 内容管理系统（CMS）：轻松开发动态页面组件。
+- 产品展示页：快速搭建并定制化的展示组件
+
+### 社区与支持
+
+AirUI 是一个开源项目，欢迎开发者参与贡献。您可以通过 air.js.org 获取更多文档、更新日志以及社区支持

@@ -4,14 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Aircomponents",
+  "title": "AirUI",
   "tagline": "Lightweight Web Components",
   "favicon": "img/favicon.ico",
   "url": "https://SisyphusZheng.github.io",
   "baseUrl": "/zh-Hans/",
   "trailingSlash": false,
   "organizationName": "SisyphusZheng",
-  "projectName": "Aircomponents-docs",
+  "projectName": "AirUI",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -143,17 +143,17 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "component"
+          "label": "组件"
         },
         {
           "to": "/design/Intro",
-          "label": "design",
+          "label": "设计",
           "position": "left",
           "activeBaseRegex": "/design/"
         },
         {
           "to": "/blog",
-          "label": "blog",
+          "label": "博客",
           "position": "left"
         },
         {

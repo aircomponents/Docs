@@ -1,7 +1,7 @@
 {
   "id": "basic-components/icon",
   "title": "Icon",
-  "description": "air-icon is a general icon component that supports the integration of multiple icon libraries (such as Material Icons, Font Awesome, Boxicons, Iconfont, IconPark, etc.), making the use of icons simpler and more unified.",
+  "description": "Attribute description",
   "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/basic-components/icon.mdx",
   "sourceDirName": "basic-components",
   "slug": "/basic-components/icon",

@@ -12,7 +12,7 @@ const sections = [
     title: <Translate>Framework agnostic</Translate>,
     description: (
       <Translate>
-        AirComponents is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript.
+        AirUI is designed to work seamlessly with any front-end stack. By leveraging Web Components and design tokens, it ensures a consistent look and feel across diverse frameworks like React, Vue, or even vanilla JavaScript.
       </Translate>
     ),
     imageUrl: pic1,
@@ -23,7 +23,7 @@ const sections = [
     title: <Translate>Easy to use</Translate>,
     description: (
       <Translate>
-        With a focus on simplicity and flexibility, AirComponents provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market.
+        With a focus on simplicity and flexibility, AirUI provides developers with pre-built, reusable components and design patterns, streamlining the development process and reducing time-to-market.
       </Translate>
     ),
     imageUrl: pic2,
@@ -34,7 +34,7 @@ const sections = [
     title: <Translate>User friendly</Translate>,
     description: (
       <Translate>
-        AirComponents ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike.
+        AirUI ensures that every component is accessible, intuitive, and adheres to the latest WCAG 2.1 AA standards. This guarantees a seamless experience for developers and end-users alike.
       </Translate>
     ),
     imageUrl: pic3,

@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "AirComponents 简介",
-  "description": "欢迎使用 AirComponents——一个现代化、轻量级的 Web Components 库，专为简洁和优雅而设计。",
+  "title": "AirUI 介绍",
+  "description": "欢迎来到 AirUI —— 一个现代化、轻量级、模块化的 UI 组件库，旨在为 Web 开发提供简洁、优雅的解决方案。通过 AirUI，您可以轻松构建高效、美观的 Web 应用。",
   "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

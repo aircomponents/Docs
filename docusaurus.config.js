@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Aircomponents',
+  title: 'AirUI',
   tagline: 'Lightweight Web Components',
   favicon: 'img/favicon.ico',
 
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SisyphusZheng', // Usually your GitHub org/user name.
-  projectName: 'Aircomponents-docs', // Usually your repo name.
+  projectName: 'AirUI', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -152,9 +152,9 @@ const config = {
       },
       image: 'img/air-components-board.png',
       navbar: {
-        title: 'AirComponents',
+        title: 'AirUI',
         logo: {
-          alt: 'AirComponents',
+          alt: 'AirUI',
           src: 'img/logo-RColor.svg',
         },
         items: [
