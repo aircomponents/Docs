@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://SisyphusZheng.github.io/zh-Hans/blog</id>
-    <title>Aircomponents Blog</title>
+    <title>AirUI Blog</title>
     <updated>2024-12-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://SisyphusZheng.github.io/zh-Hans/blog"/>
-    <subtitle>Aircomponents Blog</subtitle>
+    <subtitle>AirUI Blog</subtitle>
     <icon>https://SisyphusZheng.github.io/zh-Hans/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[组件库的初步尝试]]></title>
