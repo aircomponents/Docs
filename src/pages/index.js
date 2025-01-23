@@ -45,7 +45,6 @@ function HomepageHeader() {
             textAlign: 'center',
           }}
         >
-          {siteConfig.title}
         </Heading>
         <p
           className="hero__subtitle"
@@ -58,7 +57,11 @@ function HomepageHeader() {
           {siteConfig.tagline}
         </p>
         <div className={styles.buttons}>
-          <air-button size="medium" state="primary" suffix-icon="🚀">
+          <air-button
+            size="medium"
+            state="ghost"
+            style={{ border: '2px solid white', borderRadius: '8px' }}
+            suffix-icon="🚀">
             <Link
               to="/docs/intro"
               style={{
