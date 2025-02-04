@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aircomponents/ui@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@aircomponents/ui/-/ui-0.0.12.tgz#9e1b7af9e8dbf46ce5b37445271a3e5d0258b033"
-  integrity sha512-qyyQA15X15JkfYNltb1x6euZNTLVW1mVCYi45PRmdFeWLDvf5NK8ikdkaHDVym1IMq3Y/jExFedt/Lu/5MkxeA==
+"@airdesign/ui@^0.0.16":
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/@airdesign/ui/-/ui-0.0.16.tgz#51c61e97ad3669ecab4d4c9042d5fab48b68a818"
+  integrity sha512-qS68cprQpAAw+9lYxFgL3bYMfXvGD/F0bNjGL58AEg+mfMmxLCDA0ZyZpz1ZT1OUfoq8nlGGx44nHpwrxkkuDA==
   dependencies:
     ace-builds "^1.37.5"
     classnames "^2.5.1"
@@ -3614,7 +3614,7 @@ ci-info@^3.2.0:
 
 classnames@^2.5.1:
   version "2.5.1"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.5.1.tgz"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 clean-css@^5.2.2, clean-css@^5.3.2, clean-css@~5.3.2:

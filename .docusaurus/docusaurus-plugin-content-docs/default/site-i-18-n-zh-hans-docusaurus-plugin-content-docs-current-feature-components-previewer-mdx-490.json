@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "text",
-    "permalink": "/zh-Hans/docs/basic-components/text"
+    "title": "chat",
+    "permalink": "/zh-Hans/docs/feature-components/chat"
   },
   "next": {
     "title": "user-profile",

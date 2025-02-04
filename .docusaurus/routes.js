@@ -69,15 +69,15 @@ export default [
   },
   {
     path: '/zh-Hans/docs',
-    component: ComponentCreator('/zh-Hans/docs', 'd49'),
+    component: ComponentCreator('/zh-Hans/docs', '4f8'),
     routes: [
       {
         path: '/zh-Hans/docs',
-        component: ComponentCreator('/zh-Hans/docs', '09c'),
+        component: ComponentCreator('/zh-Hans/docs', 'b43'),
         routes: [
           {
             path: '/zh-Hans/docs',
-            component: ComponentCreator('/zh-Hans/docs', 'a97'),
+            component: ComponentCreator('/zh-Hans/docs', '952'),
             routes: [
               {
                 path: '/zh-Hans/docs/basic-components/avatar',
@@ -124,6 +124,12 @@ export default [
               {
                 path: '/zh-Hans/docs/category/基础组件',
                 component: ComponentCreator('/zh-Hans/docs/category/基础组件', '3d2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/zh-Hans/docs/feature-components/chat',
+                component: ComponentCreator('/zh-Hans/docs/feature-components/chat', '02b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
