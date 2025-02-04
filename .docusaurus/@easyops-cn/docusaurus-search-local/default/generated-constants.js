@@ -4,5 +4,5 @@ require("/home/zos/documents/GitHub/MyFork/Docs/AirCom-Docs/node_modules/@easyop
 require("/home/zos/documents/GitHub/MyFork/Docs/AirCom-Docs/node_modules/lunr-languages/lunr.multi.js")(lunr);
 export const removeDefaultStopWordFilter = false;
 export const language = ["en","zh"];
-export const searchIndexUrl = "search-index{dir}.json?_=d9a13f13";
+export const searchIndexUrl = "search-index{dir}.json?_=955058c3";
 export const searchResultLimits = 8;

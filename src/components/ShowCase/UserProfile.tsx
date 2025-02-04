@@ -20,12 +20,7 @@ export default function Showcase() {
       </div>
       {/* 右侧用户展示 */}
       <div className={styles.profileContainer}>
-        <air-user-profile
-          avatar-src="https://avatars.githubusercontent.com/u/146103794?v=4"
-          user-name="Jane Smith"
-          user-bio="Product Manager, loves tech and coffee."
-          editable
-        ></air-user-profile>
+        <air-chat class="h-full"></air-chat>
       </div>
     </div>
   );

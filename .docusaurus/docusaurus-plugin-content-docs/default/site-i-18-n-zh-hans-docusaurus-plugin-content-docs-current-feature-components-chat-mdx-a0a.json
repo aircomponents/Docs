@@ -1,0 +1,26 @@
+{
+  "id": "feature-components/chat",
+  "title": "chat",
+  "description": "Graph",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/feature-components/chat.mdx",
+  "sourceDirName": "feature-components",
+  "slug": "/feature-components/chat",
+  "permalink": "/zh-Hans/docs/feature-components/chat",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aircomponents/UI/docs/feature-components/chat.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "chat"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "text",
+    "permalink": "/zh-Hans/docs/basic-components/text"
+  },
+  "next": {
+    "title": "previewer",
+    "permalink": "/zh-Hans/docs/feature-components/previewer"
+  }
+}

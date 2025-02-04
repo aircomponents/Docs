@@ -87,17 +87,17 @@
     "__comp": "17896441",
     "content": "3b49242c"
   },
-  "/zh-Hans/docs-d49": {
+  "/zh-Hans/docs-4f8": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/zh-Hans/docs-09c": {
+  "/zh-Hans/docs-b43": {
     "__comp": "a7bd4aaa",
     "__props": "eceef310"
   },
-  "/zh-Hans/docs-a97": {
+  "/zh-Hans/docs-952": {
     "__comp": "a94703ab"
   },
   "/zh-Hans/docs/basic-components/avatar-084": {
@@ -131,6 +131,10 @@
   "/zh-Hans/docs/category/基础组件-3d2": {
     "__comp": "14eb3368",
     "__props": "1b9ac7f1"
+  },
+  "/zh-Hans/docs/feature-components/chat-02b": {
+    "__comp": "17896441",
+    "content": "a0accd6a"
   },
   "/zh-Hans/docs/feature-components/previewer-5f2": {
     "__comp": "17896441",
