@@ -28,17 +28,19 @@ title: button
 
 Shows a minimalist button with an appearance that can be adjusted based on `size`, `state` and `state`.
 
-<air-previewer size="large">
-<air-button size="medium" state="default" state="default">
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+<air-button size="medium" state="primary">
   Primary Button
 </air-button>
+</div>
 </air-previewer>
 
 ### 2. Buttons of different colours
 
 Displays buttons in different colours, covering `primary`, `success`, `info`, `warning`, `danger`, and `ghost`.
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button state="primary">primary</air-button>
 <air-button state="success">success</air-button>
@@ -52,7 +54,7 @@ Displays buttons in different colours, covering `primary`, `success`, `info`, `w
 ### 3. Buttons of different sizes demonstrate the different effects of the 
 `size` attribute. You can use `small`, `medium`, and `large` to demonstrate different button sizes.
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button size="small">small Button</air-button>
 <air-button size="medium">medium Button</air-button>
@@ -63,7 +65,7 @@ Displays buttons in different colours, covering `primary`, `success`, `info`, `w
 ### 4. Buttons with icons
 Displays buttons with icons. Use the `icon`,`suffix-icon` attributes to add prefix and suffix icons to buttons.
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button icon="⭐">图标按钮</air-button>
 <air-button suffix-icon="✓">后缀图标按钮</air-button>
@@ -74,7 +76,7 @@ Displays buttons with icons. Use the `icon`,`suffix-icon` attributes to add pref
 ### 5. Different styles of buttons
 show how buttons look when they are in button style mode, using the `solid`, `outline`, `text`, `neo`, and `default` attributes.
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button state="solid">solid</air-button>
 <air-button state="outline">outline</air-button>
@@ -85,13 +87,13 @@ show how buttons look when they are in button style mode, using the `solid`, `ou
 ### 6. Loading, disabled, selected state display
 Display buttons in the loading, disabled, or selected state using the `loading`, `disabled`, `icon`, `selected`, and other attributes.
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button loading>loading</air-button>
 <air-button disabled>disabled</air-button>
 <air-button disabled icon="❌">icon</air-button>
 <air-button selected>selected</air-button>
-<air-button selected icon="✔️">selectedWithIcon</air-button>
+<air-button selected icon="✔️">selected</air-button>
 </>
 </air-previewer>
 ---

@@ -1,0 +1,26 @@
+{
+  "id": "basic-components/tag",
+  "title": "tag",
+  "description": "air-tag 是一个灵活且美观的标签组件，支持多种颜色、大小、形状和状态，适用于各种场景。",
+  "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/basic-components/tag.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/tag",
+  "permalink": "/zh-Hans/docs/basic-components/tag",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aircomponents/UI/docs/basic-components/tag.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "tag"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "rating",
+    "permalink": "/zh-Hans/docs/basic-components/rating"
+  },
+  "next": {
+    "title": "text",
+    "permalink": "/zh-Hans/docs/basic-components/text"
+  }
+}

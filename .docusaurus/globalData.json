@@ -41,6 +41,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "basic-components/rating",
+              "path": "/zh-Hans/docs/basic-components/rating",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "basic-components/tag",
+              "path": "/zh-Hans/docs/basic-components/tag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "basic-components/text",
               "path": "/zh-Hans/docs/basic-components/text",
               "sidebar": "tutorialSidebar"

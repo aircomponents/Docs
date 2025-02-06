@@ -33,19 +33,19 @@ title: button
 
 展示一个最基本的按钮，依据 `size`, `state` 和 `state` 来调整外观。
 
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-button size="medium" state="primary">
   Primary Button
 </air-button>
-</>
+</div>
 </air-previewer>
 
 ### 2. 不同颜色的按钮
 
 展示不同颜色的按钮，涵盖 `primary`, `success`, `info`, `warning`, `danger`, `ghost`。
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button state="primary">主按钮</air-button>
 <air-button state="success">成功按钮</air-button>
@@ -59,7 +59,7 @@ title: button
 ### 3. 不同大小的按钮展示 
 `size` 属性的不同效果。你可以使用 `small`, `medium`, `large` 来展示不同的按钮大小。
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button size="small">small Button</air-button>
 <air-button size="medium">medium Button</air-button>
@@ -71,7 +71,7 @@ title: button
 
 展示带有图标的按钮，使用 `icon`,`suffix-icon`, 属性为按钮添加前后缀图标。
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button icon="⭐">图标按钮</air-button>
 <air-button suffix-icon="✓">后缀图标按钮</air-button>
@@ -83,7 +83,7 @@ title: button
 
 展示按钮处于按钮样式状态时的表现，使用 `solid`,`outline`,`text`,`neo`,`default` 属性。
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button state="solid">实心按钮</air-button>
 <air-button state="outline">描边按钮</air-button>
@@ -95,7 +95,7 @@ title: button
 
 展示加载中、禁用、选中状态下的按钮，使用 `loading`,`disabled`,`icon`,`selected`等属性。
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-button loading>加载中</air-button>
 <air-button disabled>禁用按钮</air-button>

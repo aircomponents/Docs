@@ -12,9 +12,8 @@ title: avatar
 | `border` | `string`                         | Custom border style.                                     | `''`        |
 ---
 ### 1. Example of customising the avatar image
-<air-previewer size="large">
-<>
-<div style={{ textAlign: "center" }}>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
   <air-avatar
     size="large"
     name="李四"
@@ -23,12 +22,10 @@ title: avatar
     class="air-bg-secondary"
   ></air-avatar>
 </div>
-</>
 </air-previewer>
 ### 2. Display initials without an avatar
-<air-previewer size="large">
-<>
-<div style={{ textAlign: "center" }}>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
   <air-avatar
     size="large"
     name="Wang Wu"
@@ -36,13 +33,11 @@ title: avatar
     class="air-bg-accent"
   ></air-avatar>
 </div>
-</>
 </air-previewer>
 
 ### 3. Custom size and background
-<air-previewer size="large">
-<>
-<div style={{ textAlign: "center" }}>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
   <air-avatar
     size="5rem"
     name="Zhao Liu"
@@ -50,15 +45,12 @@ title: avatar
     class="air-bg-light"
   ></air-avatar>
 </div>
-</>
 </air-previewer>
 ### 4. Multiple avatars
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
 <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
   <air-avatar size='small' name='John Doe' shape='circle' />
   <air-avatar size='medium' name='Jane Doe' shape='square' />
   <air-avatar size='large' name='Peter Doe' shape='circle' />
 </div>
-</>
 </air-previewer>
