@@ -87,17 +87,17 @@
     "__comp": "17896441",
     "content": "3b49242c"
   },
-  "/zh-Hans/docs-4f8": {
+  "/zh-Hans/docs-298": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/zh-Hans/docs-b43": {
+  "/zh-Hans/docs-ab8": {
     "__comp": "a7bd4aaa",
     "__props": "eceef310"
   },
-  "/zh-Hans/docs-952": {
+  "/zh-Hans/docs-9b8": {
     "__comp": "a94703ab"
   },
   "/zh-Hans/docs/basic-components/avatar-084": {
@@ -123,6 +123,14 @@
   "/zh-Hans/docs/basic-components/input-78f": {
     "__comp": "17896441",
     "content": "6e147800"
+  },
+  "/zh-Hans/docs/basic-components/rating-e38": {
+    "__comp": "17896441",
+    "content": "20cf591f"
+  },
+  "/zh-Hans/docs/basic-components/tag-c5f": {
+    "__comp": "17896441",
+    "content": "0c105745"
   },
   "/zh-Hans/docs/basic-components/text-3f2": {
     "__comp": "17896441",

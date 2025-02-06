@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Input",
-    "permalink": "/docs/basic-components/input"
+    "title": "tag",
+    "permalink": "/docs/basic-components/tag"
   },
   "next": {
     "title": "chat",

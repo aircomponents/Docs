@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Input",
-    "permalink": "/zh-Hans/docs/basic-components/input"
+    "title": "tag",
+    "permalink": "/zh-Hans/docs/basic-components/tag"
   },
   "next": {
     "title": "chat",

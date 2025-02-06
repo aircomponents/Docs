@@ -1,7 +1,7 @@
 {
   "id": "basic-components/button",
   "title": "button",
-  "description": "设计稿",
+  "description": "Properties",
   "source": "@site/i18n/zh-Hans/docusaurus-plugin-content-docs/current/basic-components/button.mdx",
   "sourceDirName": "basic-components",
   "slug": "/basic-components/button",

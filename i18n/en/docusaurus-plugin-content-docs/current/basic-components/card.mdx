@@ -22,10 +22,11 @@ title: card
 
 ----------------------------------------------
 
-### 1. Customise the title, content and footer slot of the card This example shows how to customise the title, content and footer button of the `air-card`.
+### 1. 自定义标题、内容和底部插槽的卡片
 
-<air-previewer size="large">
-<>
+该示例展示如何自定义 `air-card` 的标题、内容和底部按钮。
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card imageUrl='https://via.placeholder.com/150' isHighlighted='true'>
   <span slot='title'>Custom Card Title</span>
   
@@ -44,28 +45,25 @@ title: card
     </air-button>
   </div>
 </air-card>
-</>
+</div>
 </air-previewer>
+### 2. 使用默认插槽内容的卡片 
+这个例子展示了一个没有自定义底部的 air-card，仅使用默认插槽内容
 
-### 2. Card with default slot content 
-
-This example shows an air-card without a custom bottom, using only the default slot content
-
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card isHighlighted="false">
   <span slot="title">Another Card Title</span>
   <span slot="content">Here is another custom content for a different card.</span>
 </air-card>
-</>
+</div>
 </air-previewer>
+### 3. 带自定义标题、内容和底部按钮的卡片
 
-### 3. Card with custom title, content and bottom button
+展示了一个带有自定义标题、内容和底部按钮的卡片。
 
-Shows a card with a custom title, content and bottom button.
-
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card isHighlighted='true'>
 <span slot='title'>
 <air-text type='heading' level='1' color='primary'>Card Title</air-text>
@@ -77,14 +75,15 @@ Shows a card with a custom title, content and bottom button.
 <air-button size='small' variant='solid' color='primary'>Learn More</air-button>
 </div>
 </air-card>
-</>
+</div>
 </air-previewer>
+### 4. 带有图片的卡片
 
-### 4. Card with image
-This card shows a card with an image and custom content.
+此卡片展示了一个带有图片和自定义内容的卡片。
 
-<air-previewer size="large">
-<>
+
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card isHighlighted='false' imageUrl='https://via.placeholder.com/150'>
 <span slot='title'>
 <air-text type='heading' level='2' color='primary'>Featured Card</air-text>
@@ -96,27 +95,26 @@ This card shows a card with an image and custom content.
 <air-button size='medium' variant='outline' color='primary'>Learn More</air-button>
 </div>
 </air-card>
-</>
+</div>
 </air-previewer>
 
-### 5. Large card
-This shows a card with the size='large' and a responsive title.
+### 5. 大尺寸卡片
 
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card isHighlighted='false' size='large'>
   <span slot='content'>
     <air-text type='fluid-heading' color='primary'>Responsive Card Title</air-text>
   </span>
 </air-card>
-</>
+</div>
 </air-previewer>
+### 6.小尺寸卡片
 
-### 5. Small card
-This card displays a small card with the legal text of the terms and conditions.
+此卡片展示了一个小尺寸卡片，带有 terms and conditions 的法律文本。
 
-<air-previewer size="large">
-<>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
 <air-card isHighlighted='false' size='small'>
   <span slot='title'>
     <air-text type='heading' level='3' color='primary'>Terms and Conditions</air-text>
@@ -128,6 +126,6 @@ This card displays a small card with the legal text of the terms and conditions.
 <air-button size='small' variant='outline' color='secondary'>I Agree</air-button>
 </div>
 </air-card>
-</>
+</div>
 </air-previewer>
 ---

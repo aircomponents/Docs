@@ -1,0 +1,26 @@
+{
+  "id": "basic-components/rating",
+  "title": "rating",
+  "description": "air-rating 组件是一个评分组件，允许用户通过点击星级来进行评分。支持自定义样式、图标、最大评分等级等属性，并通过事件向外传递评分变化。",
+  "source": "@site/i18n/en/docusaurus-plugin-content-docs/current/basic-components/rating.mdx",
+  "sourceDirName": "basic-components",
+  "slug": "/basic-components/rating",
+  "permalink": "/docs/basic-components/rating",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aircomponents/UI/docs/basic-components/rating.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "rating"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Input",
+    "permalink": "/docs/basic-components/input"
+  },
+  "next": {
+    "title": "tag",
+    "permalink": "/docs/basic-components/tag"
+  }
+}

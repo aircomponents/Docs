@@ -59,7 +59,7 @@ title: text
 
 ### 1. 渲染不同类型的文本
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-text type="heading" level="1">Main Heading</air-text>
 <air-text type="body">This is a simple paragraph.</air-text>
@@ -70,7 +70,7 @@ title: text
 
 ### 2. 渲染不同级别的标题
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-text type="heading" headingSize="1">Heading 1</air-text>
 <air-text type="heading" headingSize="2">Heading 2</air-text>
@@ -83,7 +83,7 @@ title: text
 
 ### 3. 使用颜色样式
 
-<air-previewer size="large">
+<air-previewer size="auto">
 <>
 <air-text type="heading" level="1">Main Heading</air-text>
 <air-text type="body">This is a simple paragraph.</air-text>
@@ -93,20 +93,22 @@ title: text
 </air-previewer>
 
 ### 4. 行内文本
-
-<air-previewer size="large">
-<air-text type="body" inline={true}>This text is inline.</air-text>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+<air-text type='body' inline={true}>This text is inline. </air-text>
+</div>
 </air-previewer>
 
 ### 5. 启用表现力样式
-
-<air-previewer size="large">
-<air-text type="body" expressive={true}>This is expressive text.</air-text>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+<air-text type='body' expressive={true}>This is expressive text.</air-text>
+</div>
 </air-previewer>
 
 ### 6. ARIA 属性
-
-<air-previewer size="large">
-<air-text type="body" configAria={{"aria-label": "Descriptive text"}}>This text has ARIA attributes.</air-text>
+<air-previewer size="auto">
+<div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+<air-text type='body' configAria={{'aria-label': 'Descriptive text'}}>This text has ARIA attributes.</air-text>
+</div>
 </air-previewer>
-
